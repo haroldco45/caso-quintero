@@ -49,7 +49,7 @@ async function fotosWiki() {
       const j = JSON.parse(t);
       const src = j.originalimage?.source || j.thumbnail?.source;
       const limpia = u => u.replace('//thumb.wikimedia.org/', '//upload.wikimedia.org/').replace(/\?.*$/, '');
-      if (src) out[w.clave] = { imagen: limpia(j.thumbnail?.source || src).replace(/\/\d+px-/, '/1200px-'), original: limpia(src), titulo: w.titulo, credito: 'Wikimedia Commons', url: j.content_urls?.desktop?.page || '' };
+      if (src) out[w.clave] = { imagen: (j.originalimage?.width || 0) > 1200 ? limpia(j.thumbnail?.source || src).replace(/\/\d+px-/, '/1200px-') : limpia(src), original: limpia(src), titulo: w.titulo, credito: 'Wikimedia Commons', url: j.content_urls?.desktop?.page || '' };
     } catch {}
   }
   return out;
