@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const QUERIES = ['Daniel Quintero', 'Miguel Quintero', 'Diana Toro Inder', 'Jhonny Jaramillo oro', 'Metroparques Fiscalía'];
 const VIDEO_QUERIES = ['Daniel Quintero Inder Noticias Caracol', 'Diana Toro Inder Fiscalía', 'Miguel Quintero casa por cárcel', 'Jhonny Jaramillo Quintero oro'];
-const KEYS = /quintero|inder|metroparques|jaramillo|diana toro|cyan|área metropolitana|aguas vivas/i;
+const KEYS = /daniel quintero|miguel quintero|hermanos quintero|quintero calle|alcald[ií]a (de )?(daniel )?quintero|administraci[oó]n (de )?(daniel )?quintero|exalcalde quintero|inder|metroparques|j?h?onn?y jaramillo|diana (paola )?toro|cyan eventos|aguas vivas/i;
 // Fotos fijas desde Wikipedia: clave = donde se usa en la app
 const WIKI = [
   { clave: 'daniel', pagina: 'Daniel_Quintero_Calle', titulo: 'Daniel Quintero Calle' },
@@ -32,6 +32,8 @@ function parse(xml, src) {
     let titulo = decode(tag(it, 'title'));
     let fuente = decode(tag(it, 'News:Source') || tag(it, 'source'));
     if (!fuente && titulo.includes(' - ')) { fuente = titulo.split(' - ').pop(); titulo = titulo.replace(/ - [^-]+$/, ''); }
+    fuente = fuente.trim();
+    while (fuente && titulo.endsWith(' - ' + fuente)) titulo = titulo.slice(0, -(fuente.length + 3)).trim();
     let imagen = decode(tag(it, 'News:Image'));
     if (imagen.startsWith('/')) imagen = 'https://www.bing.com' + imagen;
     if (imagen) imagen = imagen.replace(/&w=\d+&h=\d+/, '') + (imagen.includes('?') ? '&w=900' : '');
@@ -65,7 +67,7 @@ async function videosYouTube() {
       if (!id || !titulo) continue;
       const t = JSON.parse(`"${titulo}"`);
       if (!KEYS.test(t) || vistos.has(id)) continue;
-      vistos.set(id, { id, titulo: t, canal: JSON.parse(`"${canal}"`), hace });
+      vistos.set(id, { id, titulo: t, canal: JSON.parse(`"${canal}"`).replace(/ y \d+ más$/, ''), hace });
     }
   }
   return [...vistos.values()].slice(0, 9);
@@ -80,14 +82,14 @@ async function videosYouTube() {
   }
   const seen = new Map();
   for (const n of all) {
-    if (!n.titulo || !KEYS.test(n.titulo)) continue;
+    if (!n.titulo || !KEYS.test(n.titulo) || /facebook|instagram|tiktok|x\.com|twitter/i.test(n.fuente)) continue;
     const k = llave(n.titulo), p = seen.get(k);
     if (!p) seen.set(k, n); else if (!p.imagen && n.imagen) p.imagen = n.imagen;
   }
   // Conserva lo que ya tenía para no perder historial, fotos ni videos si una fuente falla
   let viejo = {};
   try { viejo = JSON.parse(fs.readFileSync('data/noticias.json', 'utf8')); } catch {}
-  for (const n of viejo.items || []) { const k = llave(n.titulo); if (!seen.has(k)) seen.set(k, n); }
+  for (const n of viejo.items || []) { if (!KEYS.test(n.titulo) || /facebook|instagram|tiktok/i.test(n.fuente)) continue; while (n.fuente && n.titulo.endsWith(' - ' + n.fuente)) n.titulo = n.titulo.slice(0, -(n.fuente.length + 3)).trim(); const k = llave(n.titulo); if (!seen.has(k)) seen.set(k, n); }
   const items = [...seen.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).slice(0, 150);
 
   const fotos = Object.assign({}, viejo.fotos || {}, await fotosWiki());
