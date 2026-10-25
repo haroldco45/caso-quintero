@@ -20,7 +20,7 @@ const tag = (xml, t) => {
   const m = xml.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`, 'i'));
   return m ? m[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
 };
-const decode = s => s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+const decode = s => s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n)).replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)));
 const llave = t => t.toLowerCase().replace(/[^a-záéíóúñ0-9]/g, '').slice(0, 70);
 
 async function get(url) {
@@ -89,7 +89,7 @@ async function videosYouTube() {
   // Conserva lo que ya tenía para no perder historial, fotos ni videos si una fuente falla
   let viejo = {};
   try { viejo = JSON.parse(fs.readFileSync('data/noticias.json', 'utf8')); } catch {}
-  for (const n of viejo.items || []) { if (!KEYS.test(n.titulo) || /facebook|instagram|tiktok/i.test(n.fuente)) continue; while (n.fuente && n.titulo.endsWith(' - ' + n.fuente)) n.titulo = n.titulo.slice(0, -(n.fuente.length + 3)).trim(); const k = llave(n.titulo); if (!seen.has(k)) seen.set(k, n); }
+  for (const n of viejo.items || []) { n.titulo = decode(n.titulo); if (!KEYS.test(n.titulo) || /facebook|instagram|tiktok/i.test(n.fuente)) continue; while (n.fuente && n.titulo.endsWith(' - ' + n.fuente)) n.titulo = n.titulo.slice(0, -(n.fuente.length + 3)).trim(); const k = llave(n.titulo); if (!seen.has(k)) seen.set(k, n); }
   const items = [...seen.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).slice(0, 150);
 
   const fotos = Object.assign({}, viejo.fotos || {}, await fotosWiki());
