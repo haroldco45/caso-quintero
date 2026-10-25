@@ -48,7 +48,8 @@ async function fotosWiki() {
     try {
       const j = JSON.parse(t);
       const src = j.originalimage?.source || j.thumbnail?.source;
-      if (src) out[w.clave] = { imagen: (j.thumbnail?.source || src).replace(/\/\d+px-/, '/1200px-'), original: src, titulo: w.titulo, credito: 'Wikimedia Commons', url: j.content_urls?.desktop?.page || '' };
+      const limpia = u => u.replace('//thumb.wikimedia.org/', '//upload.wikimedia.org/').replace(/\?.*$/, '');
+      if (src) out[w.clave] = { imagen: limpia(j.thumbnail?.source || src).replace(/\/\d+px-/, '/1200px-'), original: limpia(src), titulo: w.titulo, credito: 'Wikimedia Commons', url: j.content_urls?.desktop?.page || '' };
     } catch {}
   }
   return out;
@@ -92,7 +93,8 @@ async function videosYouTube() {
   for (const n of viejo.items || []) { n.titulo = decode(n.titulo); if (!KEYS.test(n.titulo) || /facebook|instagram|tiktok/i.test(n.fuente)) continue; while (n.fuente && n.titulo.endsWith(' - ' + n.fuente)) n.titulo = n.titulo.slice(0, -(n.fuente.length + 3)).trim(); const k = llave(n.titulo); if (!seen.has(k)) seen.set(k, n); }
   const items = [...seen.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha)).slice(0, 150);
 
-  const fotos = Object.assign({}, viejo.fotos || {}, await fotosWiki());
+  const fotos = await fotosWiki();
+  if (!Object.keys(fotos).length) Object.assign(fotos, viejo.fotos || {});
   let videos = await videosYouTube();
   if (!videos.length) videos = viejo.videos || [];
 
