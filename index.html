@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Caso Quintero al Día</title>
+<meta name="description" content="Seguimiento ciudadano a las investigaciones de la alcaldía de Daniel Quintero en Medellín: Inder, Metroparques, Miguel Quintero y Jhonny Jaramillo. Vibras Positivas HM.">
+<meta name="theme-color" content="#0b1d2e">
+<link rel="manifest" href="manifest.json">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b1d2e;--bg2:#10283f;--card:#132f4a;--ink:#f3f6fa;--muted:#9fb3c8;--gold:#f2b632;--red:#e5484d;--green:#3fbf7f;--line:rgba(255,255,255,.08)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.5;overflow-x:hidden}
+a{color:inherit}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;background:rgba(11,29,46,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.brand{font-family:'Archivo Black',sans-serif;font-size:1.05rem;letter-spacing:.5px}
+.brand span{color:var(--gold)}
+#btnRefresh{background:var(--gold);color:#1a1a1a;border:0;border-radius:999px;padding:9px 16px;font-weight:800;font-size:.85rem;cursor:pointer;transition:transform .2s}
+#btnRefresh:active{transform:scale(.94)}
+#btnRefresh.loading{animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.5}}
+.ticker{overflow:hidden;white-space:nowrap;background:var(--red);font-weight:600;font-size:.85rem}
+.ticker div{display:inline-block;padding:7px 0;animation:scroll 60s linear infinite}
+.ticker b{margin:0 22px}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.hero{position:relative;min-height:62vh;display:flex;align-items:flex-end;background:#000 center/cover no-repeat;transition:background-image 1s}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,29,46,.1) 20%,rgba(11,29,46,.95) 92%)}
+.hero-in{position:relative;z-index:2;padding:24px 16px;max-width:900px}
+.kicker{display:inline-block;background:var(--gold);color:#111;font-weight:800;font-size:.72rem;padding:4px 10px;border-radius:4px;letter-spacing:1px;text-transform:uppercase}
+.hero h1{font-family:'Archivo Black',sans-serif;font-size:clamp(1.8rem,7vw,3.4rem);line-height:1.05;margin:12px 0 10px}
+.hero p{color:#dbe6f1;max-width:640px}
+.hero small{display:block;margin-top:10px;color:var(--muted)}
+main{max-width:980px;margin:0 auto;padding:0 16px 60px}
+section{margin-top:44px;opacity:0;transform:translateY(24px);transition:all .7s}
+section.show{opacity:1;transform:none}
+h2{font-family:'Archivo Black',sans-serif;font-size:1.5rem;margin-bottom:6px}
+h2 em{font-style:normal;color:var(--gold)}
+.sub{color:var(--muted);margin-bottom:16px;font-size:.92rem}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:700px){.stats{grid-template-columns:repeat(4,1fr)}}
+.stat{background:var(--card);border-radius:14px;padding:16px;border-top:3px solid var(--gold)}
+.stat strong{display:block;font-family:'Archivo Black',sans-serif;font-size:1.6rem;color:var(--gold)}
+.stat span{font-size:.82rem;color:var(--muted)}
+.cards{display:grid;gap:14px}
+@media(min-width:700px){.cards{grid-template-columns:repeat(2,1fr)}}
+.news{display:flex;flex-direction:column;background:var(--card);border-radius:14px;overflow:hidden;text-decoration:none;transition:transform .25s,box-shadow .25s}
+.news:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.35)}
+.news .img{aspect-ratio:16/9;background:#0e2338 center/cover no-repeat}
+.news .b{padding:14px}
+.news h3{font-size:1rem;line-height:1.3;margin-bottom:8px}
+.meta{font-size:.78rem;color:var(--muted)}
+.meta b{color:var(--gold)}
+.empty{background:var(--card);border-radius:14px;padding:18px;color:var(--muted)}
+.timeline{border-left:3px solid var(--gold);margin-left:8px;padding-left:18px}
+.tl{position:relative;margin-bottom:20px}
+.tl::before{content:"";position:absolute;left:-26px;top:5px;width:13px;height:13px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(242,182,50,.2)}
+.tl time{font-size:.78rem;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.5px}
+.tl p{margin-top:2px}
+.check{display:grid;gap:12px}
+.ck{background:var(--card);border-radius:14px;padding:16px;border-left:5px solid var(--muted)}
+.ck.no{border-color:var(--red)}.ck.si{border-color:var(--green)}.ck.duda{border-color:var(--gold)}
+.ck .tag{font-size:.7rem;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:3px 8px;border-radius:4px;display:inline-block;margin-bottom:6px}
+.ck.no .tag{background:var(--red)}.ck.si .tag{background:var(--green);color:#062}.ck.duda .tag{background:var(--gold);color:#111}
+.ck q{display:block;font-style:italic;color:#cfdbe8;margin-bottom:4px}
+.people{display:grid;gap:12px}
+@media(min-width:700px){.people{grid-template-columns:repeat(2,1fr)}}
+.person{background:var(--card);border-radius:14px;padding:16px}
+.person h3{font-size:1.05rem}
+.person .rol{color:var(--muted);font-size:.85rem;margin-bottom:8px}
+.estado{display:inline-block;font-size:.75rem;font-weight:800;padding:4px 10px;border-radius:999px;background:var(--bg2);border:1px solid var(--gold);color:var(--gold);margin-bottom:8px}
+.voz{display:grid;gap:12px}
+@media(min-width:700px){.voz{grid-template-columns:1fr 1fr}}
+.voz div{background:var(--card);border-radius:14px;padding:16px}
+.voz h3{margin-bottom:6px;font-size:1rem}
+.search{display:flex;gap:8px;margin-bottom:16px}
+.search input{flex:1;background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:12px;font-size:1rem}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.chip{background:var(--bg2);border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:6px 12px;font-size:.82rem;cursor:pointer}
+.chip.on{background:var(--gold);color:#111;border-color:var(--gold);font-weight:700}
+.nota{background:linear-gradient(135deg,#1a3a58,#132f4a);border-radius:14px;padding:18px;border:1px solid rgba(242,182,50,.35)}
+footer{text-align:center;padding:30px 16px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line)}
+footer strong{color:var(--gold)}
+.videos{display:grid;gap:14px}
+@media(min-width:700px){.videos{grid-template-columns:repeat(2,1fr)}}
+.vid{background:var(--card);border-radius:14px;overflow:hidden}
+.vid .play{position:relative;aspect-ratio:16/9;background:#000 center/cover no-repeat;cursor:pointer}
+.vid .play::after{content:"VER VIDEO";position:absolute;left:12px;bottom:12px;background:var(--red);color:#fff;font-weight:800;font-size:.75rem;letter-spacing:1px;padding:7px 12px;border-radius:6px;transition:transform .2s}
+.vid .play:hover::after{transform:scale(1.08)}
+.vid iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
+.vid .b{padding:12px 14px}
+.vid h3{font-size:.95rem;line-height:1.3;margin-bottom:4px}
+.galeria{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.foto{flex:0 0 78%;max-width:420px;scroll-snap-align:start;border-radius:14px;overflow:hidden;background:var(--card);text-decoration:none}
+.foto div{aspect-ratio:4/3;background:#0e2338 center/cover no-repeat;transition:transform 6s}
+.foto:hover div{transform:scale(1.08)}
+.foto p{padding:10px 12px;font-size:.82rem;color:var(--muted)}
+.foto p b{color:var(--ink);display:block;font-size:.9rem}
+.person .ph{width:100%;aspect-ratio:16/10;border-radius:10px;background:#0e2338 center 20%/cover no-repeat;margin-bottom:12px;display:none}
+.person .ph.on{display:block}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(120px);background:var(--gold);color:#111;font-weight:800;padding:10px 18px;border-radius:999px;transition:transform .4s;z-index:50}
+.toast.on{transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">CASO <span>QUINTERO</span> AL DÍA</div>
+  <button id="btnRefresh">Actualizar</button>
+</header>
+
+<div class="ticker"><div id="ticker"><b>Cargando titulares…</b></div></div>
+
+<div class="hero" id="hero">
+  <div class="hero-in">
+    <span class="kicker">Seguimiento ciudadano</span>
+    <h1>¿Qué pasó con la plata del Inder y Metroparques?</h1>
+    <p>Lo que está confirmado, lo que está en investigación y lo que circula en redes sin verificar sobre la alcaldía de Daniel Quintero en Medellín.</p>
+    <small id="heroCap"></small>
+  </div>
+</div>
+
+<main>
+
+  <section id="hoy">
+    <h2>Hoy <em id="hoyFecha"></em></h2>
+    <p class="sub" id="hoySub">Buscando las noticias de las últimas 24 horas…</p>
+    <div class="cards" id="hoyList"></div>
+  </section>
+
+  <section id="secVideos">
+    <h2>En <em>video</em></h2>
+    <p class="sub" id="vidSub">Los videos más recientes del caso en YouTube, los trae el robot cada 30 minutos.</p>
+    <div class="videos" id="vidList"></div>
+  </section>
+
+  <section id="secFotos">
+    <h2>Las <em>fotos</em> del caso</h2>
+    <p class="sub">Fotos reales de los lugares y protagonistas. Deslice para ver más.</p>
+    <div class="galeria" id="galeria"></div>
+  </section>
+
+  <section>
+    <h2>El caso en <em>cifras</em></h2>
+    <p class="sub">Datos tomados de la Fiscalía y medios, no de redes sociales.</p>
+    <div class="stats">
+      <div class="stat"><strong data-n="3700">0</strong><span>millones que la Fiscalía dice se malversaron en el contrato Inder–Metroparques</span></div>
+      <div class="stat"><strong data-n="22000">0</strong><span>millones del convenio interadministrativo Inder–Metroparques</span></div>
+      <div class="stat"><strong data-n="2481">0</strong><span>millones del caso Área Metropolitana por el que Miguel Quintero tiene casa por cárcel</span></div>
+      <div class="stat"><strong data-n="1000">0</strong><span>millones que, según Diana Toro, Jaramillo decía haber aportado a la campaña</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Post viral <em>vs.</em> hechos</h2>
+    <p class="sub">El video que circula mezcla cosas ciertas con exageraciones. Así queda cada afirmación.</p>
+    <div class="check">
+      <div class="ck no"><span class="tag">Falso</span><q>"Por fin cayó Daniel Quintero"</q>Daniel Quintero no está capturado ni condenado por este caso. Quien tiene medida de aseguramiento es su hermano Miguel, con detención domiciliaria desde el 3 de octubre de 2026, y la Fiscalía apeló para pedir cárcel.</div>
+      <div class="ck si"><span class="tag">Cierto</span><q>"Diana Toro confesó ante la Fiscalía"</q>Diana Paola Toro, exdirectora del Inder, rindió interrogatorio ante la Fiscalía 40 el 2 de febrero de 2024. Noticias Caracol lo reveló el 18 de octubre de 2026. Ella misma está acusada y va a juicio.</div>
+      <div class="ck si"><span class="tag">Cierto, como señalamiento</span><q>"Oficina paralela de Johnny Jaramillo"</q>Toro declaró que el comerciante de oro Jhonny Jaramillo influía en la contratación y que se reunían en su casa. Ojo: Jaramillo no ha sido vinculado formalmente a los procesos de la Fiscalía.</div>
+      <div class="ck si"><span class="tag">Cierto, como señalamiento</span><q>"Plata al club de baloncesto"</q>El informe de Caracol señala que un equipo de baloncesto de Jaramillo habría recibido más de 3.000 millones en la administración Quintero. Está en investigación.</div>
+      <div class="ck duda"><span class="tag">Por verificar</span><q>"Oro por 230.000 millones, Italia y Maduro"</q>No encontramos esa cifra ni esos nexos confirmados por la Fiscalía ni por medios. Hay reportes de una investigación por lavado con una comercializadora de oro, pero sin cargos públicos con esos datos.</div>
+      <div class="ck duda"><span class="tag">Opinión</span><q>"No permitan que la izquierda le siga mintiendo"</q>Eso es una postura política del autor del video, no un hecho del caso. La corrupción se investiga a personas, no a partidos.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Línea de <em>tiempo</em></h2>
+    <p class="sub">Los hitos judiciales confirmados.</p>
+    <div class="timeline">
+      <div class="tl"><time>2020 – abr 2021</time><p>Diana Toro dirige el Inder en la alcaldía de Daniel Quintero.</p></div>
+      <div class="tl"><time>2 feb 2024</time><p>Toro rinde interrogatorio de 1 hora y 46 minutos ante la Fiscalía 40 de delitos contra la administración pública.</p></div>
+      <div class="tl"><time>oct 2024</time><p>La Fiscalía imputa a Toro por peculado y contratación ilegal. Ya eran 13 exfuncionarios y excontratistas imputados.</p></div>
+      <div class="tl"><time>3 oct 2026</time><p>Miguel Quintero es reseñado en Bellavista y queda con detención domiciliaria por el caso del Área Metropolitana. La Fiscalía apela.</p></div>
+      <div class="tl"><time>18 oct 2026</time><p>La Unidad Investigativa de Noticias Caracol revela el testimonio de Toro sobre Jhonny Jaramillo y Miguel Quintero.</p></div>
+      <div class="tl"><time>Ahora</time><p>Toro, Liévano, Domínguez y Mauricio Jaramillo (Cyan Eventos) van a juicio por el contrato Inder–Metroparques.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>¿Quién es <em>quién</em>?</h2>
+    <p class="sub">Todos se presumen inocentes hasta que un juez diga lo contrario.</p>
+    <div class="people">
+      <div class="person"><div class="ph" data-foto="daniel"></div><h3>Daniel Quintero Calle</h3><div class="rol">Exalcalde de Medellín</div><span class="estado">No capturado</span><p>No está procesado en el caso Inder–Metroparques. Enfrenta otros procesos, como Aguas Vivas, donde la imputación fue anulada y la Fiscalía apeló.</p></div>
+      <div class="person"><h3>Miguel Quintero Calle</h3><div class="rol">Exconcejal, hermano del exalcalde</div><span class="estado">Casa por cárcel</span><p>Imputado por interés indebido en contratos y peculado por apropiación en contratos del Área Metropolitana.</p></div>
+      <div class="person"><h3>Diana Paola Toro</h3><div class="rol">Exdirectora del Inder</div><span class="estado">Acusada, va a juicio</span><p>Testigo clave y a la vez procesada por peculado, contrato sin requisitos e interés indebido.</p></div>
+      <div class="person"><h3>Jhonny Jaramillo</h3><div class="rol">Comerciante de oro, Golden Platino</div><span class="estado">Sin vinculación formal</span><p>Señalado por Toro de controlar la contratación del Inder. Hasta ahora no aparece vinculado a los procesos de la Fiscalía.</p></div>
+      <div class="person"><h3>Jorge Enrique Liévano</h3><div class="rol">Exgerente de Metroparques</div><span class="estado">Acusado, va a juicio</span><p>Procesado por el contrato Inder–Metroparques.</p></div>
+      <div class="person"><h3>Mauricio Jaramillo</h3><div class="rol">Representante de Cyan Eventos</div><span class="estado">Acusado, va a juicio</span><p>El post lo llama "Siam Eventos"; el nombre correcto es Cyan Eventos.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Las dos <em>voces</em></h2>
+    <p class="sub">Para que usted saque sus propias conclusiones.</p>
+    <div class="voz">
+      <div><h3>Lo que dice Federico Gutiérrez</h3><p>El alcalde de Medellín dice que el caso Inder es uno de los 666 hallazgos que entregó a los organismos de control, pidió cárcel para los responsables y criticó la casa por cárcel de Miguel Quintero.</p></div>
+      <div><h3>Lo que dice Daniel Quintero</h3><p>El exalcalde sostiene que Gutiérrez miente y que los procesos contra su hermano tienen motivación política. Calificó la medida contra Miguel como un duro golpe para su familia.</p></div>
+    </div>
+  </section>
+
+  <section id="todas">
+    <h2>Todas las <em>noticias</em></h2>
+    <p class="sub" id="todasSub">Se buscan en vivo cada vez que abre la app.</p>
+    <div class="search"><input id="q" type="search" placeholder="Buscar: Toro, Metroparques, Miguel…"></div>
+    <div class="chips" id="chips"></div>
+    <div class="cards" id="allList"></div>
+  </section>
+
+  <section>
+    <div class="nota"><h2>Antes de <em>compartir</em></h2><p>Comparta los hechos, no los titulares inflados. Si un post dice que alguien "cayó", revise primero si hay captura. Esta app separa lo confirmado de lo que está por verificar para que usted no le haga el juego a nadie.</p></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Una app ciudadana de <strong>Vibras Positivas HM</strong> · Caucasia, Antioquia</p>
+  <p id="upd"></p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const TZ='America/Bogota';
+const QUERIES=['Daniel Quintero','Miguel Quintero','Diana Toro Inder','Jhonny Jaramillo oro','Metroparques Fiscalía'];
+const KEYS=/quintero|inder|metroparques|jaramillo|diana toro|cyan|área metropolitana|aguas vivas/i;
+let ALL=[],FILTER='Todas',lastQ='';
+
+const fmt=(d,o)=>new Intl.DateTimeFormat('es-CO',Object.assign({timeZone:TZ},o)).format(d);
+const ago=d=>{const m=Math.round((Date.now()-d)/60000);if(m<60)return`hace ${m} min`;const h=Math.round(m/60);if(h<48)return`hace ${h} h`;return fmt(d,{day:'numeric',month:'short',year:'numeric'})};
+const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('on');setTimeout(()=>e.classList.remove('on'),2600)}
+
+function parseRSS(xml,src){
+  const doc=new DOMParser().parseFromString(xml,'text/xml');
+  return [...doc.querySelectorAll('item')].map(it=>{
+    const g=t=>it.getElementsByTagName(t)[0]?.textContent?.trim()||'';
+    let img=g('News:Image')||it.querySelector('enclosure')?.getAttribute('url')||'';
+    if(img&&img.startsWith('/'))img='https://www.bing.com'+img;
+    let fuente=g('News:Source')||g('source');let titulo=g('title');
+    if(!fuente&&titulo.includes(' - ')){fuente=titulo.split(' - ').pop();titulo=titulo.replace(/ - [^-]+$/,'')}
+    return{titulo,url:g('link'),fecha:g('pubDate'),fuente:fuente||src,imagen:img};
+  });
+}
+async function viaProxy(u){
+  const p=['https://api.allorigins.win/raw?url=','https://corsproxy.io/?url='];
+  for(const x of p){try{const r=await fetch(x+encodeURIComponent(u),{cache:'no-store'});if(r.ok)return await r.text()}catch(e){}}
+  return null;
+}
+async function liveSearch(){
+  const out=[];
+  await Promise.all(QUERIES.map(async q=>{
+    const b=await viaProxy(`https://www.bing.com/news/search?q=${encodeURIComponent(q)}&format=rss&setlang=es-co`);
+    if(b)out.push(...parseRSS(b,'Bing'));
+    const g=await viaProxy(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}+when:7d&hl=es-419&gl=CO&ceid=CO:es-419`);
+    if(g)out.push(...parseRSS(g,'Google'));
+  }));
+  return out;
+}
+async function robotData(){
+  try{const r=await fetch('data/noticias.json?t='+Date.now(),{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}
+  return{items:[]};
+}
+function merge(list){
+  const seen=new Map();
+  for(const n of list){
+    if(!n.titulo||!KEYS.test(n.titulo))continue;
+    const k=n.titulo.toLowerCase().replace(/[^a-záéíóúñ0-9]/g,'').slice(0,70);
+    const d=new Date(n.fecha);n.ts=isNaN(d)?0:d.getTime();
+    const prev=seen.get(k);
+    if(!prev)seen.set(k,n);else if(!prev.imagen&&n.imagen)prev.imagen=n.imagen;
+  }
+  return [...seen.values()].sort((a,b)=>b.ts-a.ts);
+}
+function card(n){
+  const bg=n.imagen?`style="background-image:url('${esc(n.imagen)}')"`:'';
+  return `<a class="news" href="${esc(n.url)}" target="_blank" rel="noopener"><div class="img" ${bg}></div><div class="b"><h3>${esc(n.titulo)}</h3><div class="meta"><b>${esc(n.fuente)}</b> · ${n.ts?ago(n.ts):''}</div></div></a>`;
+}
+function renderHoy(){
+  const now=Date.now();
+  const hoy=ALL.filter(n=>n.ts&&now-n.ts<24*3600e3);
+  document.getElementById('hoyFecha').textContent=fmt(new Date(),{weekday:'long',day:'numeric',month:'long'});
+  document.getElementById('hoySub').textContent=hoy.length?`${hoy.length} noticia${hoy.length>1?'s':''} en las últimas 24 horas.`:'Hoy no hay noticias nuevas del caso. Estas son las más recientes:';
+  document.getElementById('hoyList').innerHTML=(hoy.length?hoy:ALL.slice(0,4)).slice(0,6).map(card).join('')||'<div class="empty">Sin conexión. Toque Actualizar cuando tenga internet.</div>';
+}
+function renderAll(){
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  let l=ALL;
+  if(FILTER!=='Todas')l=l.filter(n=>n.titulo.toLowerCase().includes(FILTER.toLowerCase()));
+  if(q)l=l.filter(n=>(n.titulo+' '+n.fuente).toLowerCase().includes(q));
+  document.getElementById('allList').innerHTML=l.slice(0,40).map(card).join('')||'<div class="empty">No hay noticias con ese filtro.</div>';
+}
+function renderChips(){
+  const c=['Todas','Daniel','Miguel','Toro','Inder','Metroparques','Jaramillo'];
+  document.getElementById('chips').innerHTML=c.map(x=>`<button class="chip ${x===FILTER?'on':''}" data-c="${x}">${x}</button>`).join('');
+}
+let FOTOS={},VIDEOS=[];
+function renderVideos(){
+  const box=document.getElementById('vidList');
+  if(!VIDEOS.length){document.getElementById('secVideos').style.display='none';return}
+  document.getElementById('secVideos').style.display='';
+  box.innerHTML=VIDEOS.slice(0,6).map(v=>`<div class="vid"><div class="play" data-id="${esc(v.id)}" style="background-image:url('https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg')"></div><div class="b"><h3>${esc(v.titulo)}</h3><div class="meta"><b>${esc(v.canal)}</b>${v.hace?' · '+esc(v.hace):''}</div></div></div>`).join('');
+}
+document.getElementById('vidList').onclick=e=>{
+  const p=e.target.closest('.play');if(!p)return;
+  p.outerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${p.dataset.id}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>`;
+};
+function renderFotos(){
+  const lista=[...Object.values(FOTOS).map(f=>({imagen:f.imagen,titulo:f.titulo,fuente:f.credito,url:f.url})),
+    ...ALL.filter(n=>n.imagen).slice(0,12).map(n=>({imagen:n.imagen,titulo:n.titulo,fuente:n.fuente,url:n.url}))];
+  if(!lista.length){document.getElementById('secFotos').style.display='none';return}
+  document.getElementById('secFotos').style.display='';
+  document.getElementById('galeria').innerHTML=lista.map(f=>`<a class="foto" href="${esc(f.url)}" target="_blank" rel="noopener"><div style="background-image:url('${esc(f.imagen)}')"></div><p><b>${esc(f.titulo)}</b>Foto: ${esc(f.fuente)}</p></a>`).join('');
+  document.querySelectorAll('[data-foto]').forEach(el=>{const f=FOTOS[el.dataset.foto];if(f){el.style.backgroundImage=`url('${f.imagen}')`;el.classList.add('on')}});
+}
+function renderHero(){
+  const withImg=[...Object.values(FOTOS).map(f=>({imagen:f.imagen,fuente:f.credito,titulo:f.titulo})),...ALL.filter(n=>n.imagen)];
+  if(!withImg.length)return;
+  let i=0;const h=document.getElementById('hero'),cap=document.getElementById('heroCap');
+  const show=()=>{const n=withImg[i%withImg.length];h.style.backgroundImage=`url('${n.imagen}')`;cap.textContent=`Foto: ${n.fuente} · ${n.titulo}`;i++};
+  show();clearInterval(window._hero);window._hero=setInterval(show,7000);
+}
+function renderTicker(){
+  const t=ALL.slice(0,10).map(n=>`<b>${esc(n.titulo)}</b>`).join('');
+  if(t)document.getElementById('ticker').innerHTML=t+t;
+}
+async function load(manual){
+  const btn=document.getElementById('btnRefresh');btn.classList.add('loading');btn.textContent='Buscando…';
+  const robot=await robotData();
+  FOTOS=robot.fotos||{};VIDEOS=robot.videos||[];renderVideos();
+  ALL=merge(robot.items||[]);renderAll();renderHoy();renderHero();renderTicker();renderFotos();
+  const live=await liveSearch();
+  const before=ALL.length;
+  ALL=merge([...live,...(robot.items||[])]);
+  renderAll();renderHoy();renderHero();renderTicker();renderFotos();
+  const r=robot.actualizado?` · Robot: ${fmt(new Date(robot.actualizado),{day:'numeric',month:'short',hour:'numeric',minute:'2-digit'})}`:'';
+  document.getElementById('upd').textContent=`Actualizado ${fmt(new Date(),{day:'numeric',month:'long',year:'numeric',hour:'numeric',minute:'2-digit'})} (hora Colombia)${r}`;
+  document.getElementById('todasSub').textContent=`${ALL.length} noticias encontradas · búsqueda en vivo ${live.length?'activa':'no disponible, usando las del robot'}.`;
+  btn.classList.remove('loading');btn.textContent='Actualizar';
+  if(manual)toast(ALL.length>before?`${ALL.length-before} noticias nuevas`:'Ya está al día');
+}
+function counters(){
+  document.querySelectorAll('[data-n]').forEach(el=>{
+    const n=+el.dataset.n;let s=null;
+    const step=t=>{if(!s)s=t;const p=Math.min((t-s)/1400,1);el.textContent=Math.round(n*(1-Math.pow(1-p,3))).toLocaleString('es-CO');if(p<1)requestAnimationFrame(step)};
+    requestAnimationFrame(step);
+  });
+}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');if(e.target.querySelector('[data-n]')&&!e.target.dataset.done){e.target.dataset.done=1;counters()}}}),{threshold:.12});
+document.querySelectorAll('section').forEach(s=>io.observe(s));
+document.getElementById('btnRefresh').onclick=()=>load(true);
+document.getElementById('q').oninput=renderAll;
+document.getElementById('chips').onclick=e=>{const c=e.target.dataset.c;if(c){FILTER=c;renderChips();renderAll()}};
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)load(false)});
+renderChips();load(false);
+if('serviceWorker'in navigator)navigator.serviceWorker.register('sw.js');
+</script>
+</body>
+</html>

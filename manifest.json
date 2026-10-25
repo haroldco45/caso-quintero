@@ -1,0 +1,10 @@
+{
+  "name": "Caso Quintero al Día",
+  "short_name": "Caso Quintero",
+  "description": "Seguimiento ciudadano a las investigaciones de la alcaldía de Daniel Quintero. Vibras Positivas HM.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1d2e",
+  "theme_color": "#0b1d2e",
+  "lang": "es-CO"
+}
