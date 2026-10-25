@@ -1,0 +1,9 @@
+alpujarra https://upload.wikimedia.org/wikipedia/commons/7/76/La_Alpujarra-Medellin.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled
+medellin https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Panor%C3%A1mica_de_Medell%C3%ADn_desde_el_Cerro_El_Picacho.jpg/1200px-Panor%C3%A1mica_de_Medell%C3%ADn_desde_el_Cerro_El_Picacho.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+fiscalia https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Fiscalia_Colombia_4.jpg/1200px-Fiscalia_Colombia_4.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail
+video1 https://i.ytimg.com/vi/S6dsywlqSJk/hqdefault.jpg
+video2 https://i.ytimg.com/vi/DB10TtrWY5Y/hqdefault.jpg
+video3 https://i.ytimg.com/vi/etriTQRMk9Q/hqdefault.jpg
+noticia1 https://www.bing.com/th?id=ONUT.5pSSRnWfVz312nLLAD0VyA&pid=News&w=900
+noticia2 https://www.bing.com/th?id=ONUT.wu21N_AVHJEgeUH7OTgslw&pid=News&w=900
+noticia3 https://www.bing.com/th?id=ONUT.4qPrgMQqRvCvcflWSq_zRw&pid=News&w=900
