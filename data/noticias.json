@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27T07:10:14.570Z",
+ "actualizado": "2026-10-27T13:27:35.500Z",
  "items": [
   {
    "titulo": "Contratista imputado por corrupción en alcaldía Quintero trabajó en la campaña De la Espriella",
@@ -59,10 +59,10 @@
   },
   {
    "titulo": "Aplazaron audiencia de Miguel Quintero: decisión de medida de aseguramiento será el 30 de octubre",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fwww.bluradio.com%2fregiones%2fantioquia%2faplazaron-audiencia-de-miguel-quintero-decision-de-medida-de-aseguramiento-sera-el-30-de-octubre-rg10&c=12654671392359312725&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.bluradio.com%2fregiones%2fantioquia%2faplazaron-audiencia-de-miguel-quintero-decision-de-medida-de-aseguramiento-sera-el-30-de-octubre-rg10&c=12654671392359312725&mkt=es-us",
    "fecha": "Wed, 21 Oct 2026 10:24:00 GMT",
    "fuente": "Blu Radio",
-   "imagen": "http://www.bing.com/th?id=ONUT.4qPrgMQqRvCvcflWSq_zRw&pid=News&w=900"
+   "imagen": "http://www.bing.com/th?id=ONUT.R9QD3prfMgJ580GT1hIowA&pid=News&w=900"
   },
   {
    "titulo": "Cuatro personas a juicio por presunto caso de corrupción Inder - Metroparques en la pasada administración",
@@ -93,6 +93,13 @@
    "imagen": ""
   },
   {
+   "titulo": "Fico Gutiérrez pide recuperar “en oro y criptomonedas” el dinero que, según él, fue robado en Medellín, tras revelaciones de exdirectora del Inder",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM1pkdHVERVBZZUYybUlLeVJiZ2tWbGpxaVZpWllvby03WHN4cnJETW90SmhkSjQzeWNTanNoT0c1RkdzUE9BdGRxMk9tNjhNNTFOd2lYY2U4M1drSDk0V2VVOUI2ZlRIa3FEaWREbVhyeTktNXdKQmc4M0luYTZ1VHJQWkYxZGo4dWhGRFVQeUlMbEhzcURPaHZDNUFIdlB4TnZIUTRyanlWdi1VMUU5MDdicVZmQdIBtgFBVV95cUxPM2FWdkVRZGY5VzFLOGJqN0R4aF9DVFp1OUtJNUZyczFDUHp2cjlhTVBySDNqM2F2TjhmS2s2T0R2MkdvZGp0Z3VQdExNZGMtZHlVS1dmc0RyNWdBMGhkZ0c4bzVwR0txcldPMGtqc2NhekF2VC05bjd2STZ6bXZfcjFBODRuc3h1VklmTU9rSS16SEFPeHpoSmdjYko3Vl9nWlNUY2JOVlJWcXBvX1JjNUdZOTIxUQ?oc=5",
+   "fecha": "Mon, 19 Oct 2026 22:36:46 GMT",
+   "fuente": "La FM",
+   "imagen": "http://www.bing.com/th?id=ONUT.R-Vg4RaDNFEenO2wy2r0vg&pid=News&w=900"
+  },
+  {
    "titulo": "A través de un equipo de básquet habrían sacado miles de millones de pesos del Inder, ¿cómo lo hicieron? | El Colombiano",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcFpFbHoyR0hpYjh6MlhKUUtrV0NXZDlQT3ItU3NsREdnUkVNd0tXTmhaMm5qeEZOQUFQWHNjMXNXLTRYVUIzRjZKVmJlYTU0OFVvYWUzTmFVOGtSRXNUaUpsTkxwc1NDMjBRVkpaUkYwQU0ta3BDZEs5YkRGNlQ5M3JBZFFpQTdWd3c2eDNWalo5a0VOcDFmM1lPVmxibjd4QTgzU2lQTnFNUdIBrwFBVV95cUxQaUZFUG1UVDFMc29EYl84NWRySGpCVG1GVmV4UGF1WDE2bDlVZC1hVWp2ZnRSb0dqWVFmUWFQQ3RVLWFjZ3BHNHdBdFA0bW11VHNmdHRHNkFVc2YtclVudWF2QjVRaWtPci00WHM0ZGw1b3ZCOWZIQzZJbmtBbEJwQW81ZFRWY3ZsWTNsNWNKb0kwdDVscWg3dWlqVThreDZETGRfSnhSaERNekRHTTUw?oc=5",
    "fecha": "Mon, 19 Oct 2026 18:51:28 GMT",
@@ -100,15 +107,22 @@
    "imagen": "http://www.bing.com/th?id=ONUT.OByT6q64RX8diHuM5LMIlw&pid=News&w=900"
   },
   {
+   "titulo": "Se conocen más detalles de las declaraciones de exdirectora INDER sobre presunta injerencia de Johny Jaramillo",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1uNjRpX2ZtUFM2Y0x0TnpPUmtuZlhtZDR5M1VPbnJTS1Fyc19vT0I3OEVva2JBdjlTNFoybG5rM25QMWZsaXpMSU5UVE11aXYyMGZMbGY4b0dtODhNOHQ4OVZSMFM3bEpMVVVZeWdfZ21JWTZiTUtIX19rdWk?oc=5",
+   "fecha": "Mon, 19 Oct 2026 18:25:58 GMT",
+   "fuente": "Telemedellín",
+   "imagen": "http://www.bing.com/th?id=ONUT.l6QkAvCSciVgLpIwe_ogYg&pid=News&w=900"
+  },
+  {
    "titulo": "Inder Medellín habría entregado $3.100 millones a equipo de baloncesto vinculado con empresario cercano a Daniel Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fwww.msn.com%2fes-co%2fdeportes%2ffutbol%2finder-medell%25C3%25ADn-habr%25C3%25ADa-entregado-3-100-millones-a-equipo-de-baloncesto-vinculado-con-empresario-cercano-a-daniel-quintero%2far-AA2fBOAU&c=10528244485500154995&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2fwww.msn.com%2fes-co%2fdeportes%2ffutbol%2finder-medell%25C3%25ADn-habr%25C3%25ADa-entregado-3-100-millones-a-equipo-de-baloncesto-vinculado-con-empresario-cercano-a-daniel-quintero%2far-AA2fBOAU&c=10528244485500154995&mkt=es-us",
    "fecha": "Mon, 19 Oct 2026 15:42:16 GMT",
    "fuente": "Agencia de Periodismo Investigativo on MSN",
    "imagen": "http://www.bing.com/th?id=ONUT.lfrACRjb5KBmQLp9jfwlUQ&pid=News&w=900"
   },
   {
    "titulo": "Alcalde de Medellín comparó a Daniel Quintero y su hermano con Pablo Escobar",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.bluradio.com%2fregiones%2fantioquia%2falcalde-de-medellin-comparo-a-daniel-quintero-y-su-hermano-con-pablo-escobar-rg10&c=12643230609853529491&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.bluradio.com%2fregiones%2fantioquia%2falcalde-de-medellin-comparo-a-daniel-quintero-y-su-hermano-con-pablo-escobar-rg10&c=12643230609853529491&mkt=es-us",
    "fecha": "Mon, 19 Oct 2026 13:25:00 GMT",
    "fuente": "Blu Radio",
    "imagen": "http://www.bing.com/th?id=ONUT.HpsfvqZ4R19j7I_vSD3wcA&pid=News&w=900"
@@ -142,15 +156,8 @@
    "imagen": ""
   },
   {
-   "titulo": "Fico Gutiérrez pide recuperar “en oro y criptomonedas” el dinero que, según él, fue robado en Medellín, tras revelaciones de exdirectora del Inder",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fwww.lafm.com.co%2fsociedad%2fpiden-recuperar-en-oro-y-criptomonedas-el-dinero-que-fue-robado-en-medellin-414466&c=12723030469101457732&mkt=es-us",
-   "fecha": "Mon, 19 Oct 2026 08:09:00 GMT",
-   "fuente": "La FM",
-   "imagen": "http://www.bing.com/th?id=ONUT.R-Vg4RaDNFEenO2wy2r0vg&pid=News&w=900"
-  },
-  {
    "titulo": "Pueden terminar extraditados: Fico Gutiérrez lanzó fuerte advertencia contra los hermanos Quintero tras nueva investigación",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fotras%2fpueden-terminar-extraditados-fico-guti%25C3%25A9rrez-lanz%25C3%25B3-fuerte-advertencia-contra-los-hermanos-quintero-tras-nueva-investigaci%25C3%25B3n%2far-AA2fzH54&c=12351569541124215541&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fotras%2fpueden-terminar-extraditados-fico-guti%25C3%25A9rrez-lanz%25C3%25B3-fuerte-advertencia-contra-los-hermanos-quintero-tras-nueva-investigaci%25C3%25B3n%2far-AA2fzH54&c=12351569541124215541&mkt=es-us",
    "fecha": "Mon, 19 Oct 2026 05:26:18 GMT",
    "fuente": "Publimetro on MSN",
    "imagen": "http://www.bing.com/th?id=ONUT.1bGSVK3NFyQz8_nQuN7AcQ&pid=News&w=900"
@@ -164,21 +171,14 @@
   },
   {
    "titulo": "Revelan presuntos vínculos de Johny Jaramillo con contratación del INDER durante la administración de Daniel Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2ftelemedellin.tv%2frevelan-presuntos-vinculos-johny-jaramillo-inder%2f&c=11628743797223239798&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2ftelemedellin.tv%2frevelan-presuntos-vinculos-johny-jaramillo-inder%2f&c=11628743797223239798&mkt=es-us",
    "fecha": "Mon, 19 Oct 2026 00:14:00 GMT",
    "fuente": "Telemedellín",
    "imagen": "http://www.bing.com/th?id=ONUT.CicU5I8eWe6ZY2V58u_76A&pid=News&w=900"
   },
   {
-   "titulo": "Se conocen más detalles de las declaraciones de exdirectora INDER sobre presunta injerencia de Jhonny Jaramillo en contratos",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2ftelemedellin.tv%2fdeclaraciones-exdirectora-inder-johny-jaramillo%2f&c=9225186560011824396&mkt=es-us",
-   "fecha": "Sun, 18 Oct 2026 18:25:00 GMT",
-   "fuente": "Telemedellín",
-   "imagen": "http://www.bing.com/th?id=ONUT.l6QkAvCSciVgLpIwe_ogYg&pid=News&w=900"
-  },
-  {
    "titulo": "El rol de un comerciante de oro en entramado de presunta corrupción en alcaldía de Daniel Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.noticiascaracol.com%2finformes-especiales%2fel-rol-de-un-comerciante-de-oro-en-entramado-de-presunta-corrupcion-en-alcaldia-de-daniel-quintero-ex40&c=8741308244688927459&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.noticiascaracol.com%2finformes-especiales%2fel-rol-de-un-comerciante-de-oro-en-entramado-de-presunta-corrupcion-en-alcaldia-de-daniel-quintero-ex40&c=8741308244688927459&mkt=es-us",
    "fecha": "Sun, 18 Oct 2026 17:23:00 GMT",
    "fuente": "Noticias Caracol",
    "imagen": "http://www.bing.com/th?id=ONUT.IMIb_REglXA1bcAEVJIy5A&pid=News&w=900"
@@ -191,17 +191,17 @@
    "imagen": ""
   },
   {
-   "titulo": "Dirección Anticorrupción asume indagación por presunta venta de Afinia en administración de Quintero",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSHI3MzgtM1BGbmUtXzB4M3hGT0pUemZrMEFHblZub1lPdlA4N2RneW4zLTZwcUtkb25YSnRHWFZEa2w2Z1JldXp2a2dMTEI4akJlN2lNampqT1FEZldtWjV4YXNFcmZaNDlfNGMteDBHRGtQcmt3c241RjE1SVkyTWNVaUJOX2VOMGZRRnVGNm1JXzhUR25DMnl4c3g1RlBzOGplajJ2bGdoY3g5dUhfU1VLWkFvNVFILXp0V2owb3Z0emN3SFlPYnRxN2dyVTVuQ0xF0gHgAUFVX3lxTE5VTWVKZEtDdTdvc3cxSUk5eFV1QUhZTklvNEFaS3pHNWp6eTE1S2RNQk1jMXhCT3NnY1VQc2hBclZjNnp0RGpwTmROYUIzNEVqdGFhWFE1U1hIMGxSWFNSYjBXNk8wZDZ2V1lMLXVBRnR1MFRDdEJTaUdYY2RkcWVIM2VsM0pyWkllRGZZNjdINFhidWJ2VklUS0lVaE1BS2xJRUZMRHdzT25GLVFSWmxJTTlicVlOSkJycElWMHhENllPV1RRQ2hPRktqM3pmeE0wZ2ttVzdONmpTMEZMRU5D?oc=5",
-   "fecha": "Fri, 16 Oct 2026 07:00:00 GMT",
-   "fuente": "Blu Radio",
-   "imagen": ""
-  },
-  {
    "titulo": "Tyche, primera mujer antioqueña en recibir la medalla anticorrupción del Congreso tras sus denuncias a la administración Quintero | El Colombiano",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTTFQeUd5N1BlWXpyVkhpTXlISnBJczhfVlc3WGw1OGRBMTIxU1F0Sl9fankyc25WSVE1Q19hSGp0TUFzRmtkb3BYRlp3X1p1SVlmVlpfYlh0Y3U3dW50TDhudVQxOUVTczFPUmFGUW9vaC1SQU9PV21Ba1RuOXJIZTU2VGM5SnR3dFhvUUM0YmdldjhlTjVRaHl0bFFZcXV5aTFHUkxQVUhFZ0hLNy1GdXlJQkg4dUJ5bVVXdGZTa9IBxAFBVV95cUxQRXpwVnMzejM5bnZuS0xORTI0WjFpTUlobVNOeUdNbHN1S0JDX0dLREtjVHNXZ2JOOFY2QlU5MmVWT214QUh2ZnpxNTJlM0xhS09HZ2M4TEx0LUl1TElUNjB2OXkzSVZJNEI5VllVX0J1Y0lsUE1qZE8xVHZDUmlETHV4QWJtaHRqNzlHbmpWZXN5NHFEX2RGc1RrQnJYS2dqT1hBOUQ5clRoeklHZXZsNHpLUngwbkppNXhabVZVQ29WX1Bj?oc=5",
    "fecha": "Fri, 16 Oct 2026 07:00:00 GMT",
    "fuente": "El Colombiano",
+   "imagen": ""
+  },
+  {
+   "titulo": "Dirección Anticorrupción asume indagación por presunta venta de Afinia en administración de Quintero",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSHI3MzgtM1BGbmUtXzB4M3hGT0pUemZrMEFHblZub1lPdlA4N2RneW4zLTZwcUtkb25YSnRHWFZEa2w2Z1JldXp2a2dMTEI4akJlN2lNampqT1FEZldtWjV4YXNFcmZaNDlfNGMteDBHRGtQcmt3c241RjE1SVkyTWNVaUJOX2VOMGZRRnVGNm1JXzhUR25DMnl4c3g1RlBzOGplajJ2bGdoY3g5dUhfU1VLWkFvNVFILXp0V2owb3Z0emN3SFlPYnRxN2dyVTVuQ0xF0gHgAUFVX3lxTE5VTWVKZEtDdTdvc3cxSUk5eFV1QUhZTklvNEFaS3pHNWp6eTE1S2RNQk1jMXhCT3NnY1VQc2hBclZjNnp0RGpwTmROYUIzNEVqdGFhWFE1U1hIMGxSWFNSYjBXNk8wZDZ2V1lMLXVBRnR1MFRDdEJTaUdYY2RkcWVIM2VsM0pyWkllRGZZNjdINFhidWJ2VklUS0lVaE1BS2xJRUZMRHdzT25GLVFSWmxJTTlicVlOSkJycElWMHhENllPV1RRQ2hPRktqM3pmeE0wZ2ttVzdONmpTMEZMRU5D?oc=5",
+   "fecha": "Fri, 16 Oct 2026 07:00:00 GMT",
+   "fuente": "Blu Radio",
    "imagen": ""
   },
   {
@@ -219,13 +219,6 @@
    "imagen": ""
   },
   {
-   "titulo": "¿Por qué dejó Santiago Trespalacios la defensa de Miguel Quintero? Las versiones detrás de la ruptura",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fes-us.noticias.yahoo.com%2fsantiago-trespalacios-defensa-miguel-quintero-144422128.html&c=11793577483166784094&mkt=es-us",
-   "fecha": "Wed, 14 Oct 2026 07:44:00 GMT",
-   "fuente": "Yahoo Noticias en Español",
-   "imagen": "http://www.bing.com/th?id=ONUT.KK9qr3ThVSCt6YvIuqSQbQ&pid=News&w=900"
-  },
-  {
    "titulo": "Miguel Quintero, sin abogado: por mutuo acuerdo el abogado Santiago Trespalacios dejó de ser su defensor",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNHZqQUliZUZUWEFNYXlmUXNpejQwWGNOcTVFMG5maGZHdnBMbmw4ZUJfZ2VKaW56dGVsX1RNWkQtQndVQnRkZWRHWFhYcnJuQXJEWHpwdFdxQkkxd3FBU2p2NFc1VUExX0ZxYlhZR2d1M0R6MlZVTHdmVmVOcDhHS1l0a1pQazNZalFJakhUOTBqaGRTNW9RTFkxVGpHNlpScFpwdWFDa2ctMFVrWENiLUFKYjM5OFFxSkJSN0tsNS1rcWNkOE1CSmxSSVZOdUEwT01WX1kwWGZlZTc5emJwLW5XcVBVMk3SAewBQVVfeXFMUDFYNkdWYmJlUS1RTEtWVXpjSFRaRkhpRzQyY3FXU0dMZlpqUTdKRmxYTFBQVDIxaFp2SU1yckdyUEdaQW4zR2ZaMVkwLWVORlduMGw1SVlpaDdwQWhtaGphanhkeV9lY2tEellteEdTRU5CY2gzYkItYmNobHNiMjd3Nk5jdVRxMjFOTVdkSTJHaTB6cnFzUDlJV1BvSUFWa04weU1GMXNBOTh4S0pvWHZkSXEtNkFnWk8wSExZQzlYdE0tc0UxdEpNOWx4d010bTk3VVRkcVdFci1TTl9nSkFNYWhFXzcxeXFNcmU?oc=5",
    "fecha": "Wed, 14 Oct 2026 07:00:00 GMT",
@@ -237,20 +230,27 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQVBocmJ5SWhxRW1rS3RaREFhYnF5NmJScFFpclNENDdUSGVXSTczV1lrYXJELXVobUVJUHA3SjhYVGtmeGpsTVdxcVhWemItLU5VNmRBY2ZsaFNZMk04b2RHOXBRbjIzakVwSFJvZXhGSkJuSFJJbGpDM2tfQzJKc2RqNF9uRmRyQVZ2STM0ZVVjYmJSblZkdm92ZmVNbmVoWEdSMDZ6eXZTdlBzTGxPaTdnZ0dnb1QwV1loYzA3c9IB0wFBVV95cUxQS0ZJTkhucXB3RnhWN3g4ZFZIZnVTQ2xjczdYT1F0R1VZMnhUbHVPekk3Ty1BVDlWQW5WWXBGOWhyczR0b2NjMm00N2dpMENGZTJWQzJNV1lhWXlpYzlxYnRhRFRRdEN6aUpsT0JLWlBhRDEweGdoVER1YzdzeG80TXU5SlhhUXJYYnJnYVo0cmdLcVlXY2stakk2blFkV24xUGNqM1ZaM09DS0hPVldsZ3NpaUhqTE9GM3NEM1lubldvSDJESEdwRk1CaEhaRlctZUo4?oc=5",
    "fecha": "Wed, 14 Oct 2026 07:00:00 GMT",
    "fuente": "Caracol Radio",
-   "imagen": "http://www.bing.com/th?id=ONUT.6HB_mi7V6Yw-8trwkehAlQ&pid=News&w=900"
+   "imagen": "http://www.bing.com/th?id=ONUT.5RE0B0VPylu06iTysyLv2A&pid=News&w=900"
   },
   {
-   "titulo": "QuinteroEl 23 de octubre se define el futuro judicial de Miguel Quintero: ¿Casa por cárcel o prisión?",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1QTdUUkRsWWtvSHFjQTJjMml2c1k0WXBkTGdoYUhUbVRtTUFKRnluYk96ZzlYYWtLcmxfeVF5eDlKSGZsZWlTbEQzT29IX2RBMTZHNjJPOWNWS2FSMnZB?oc=5",
+   "titulo": "¿Por qué dejó Santiago Trespalacios la defensa de Miguel Quintero? Las versiones detrás de la ruptura | El Colombiano",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1otVlpJXzZxUnBMUWFqaERodlc2ai04VGw5LXFKWlhHOVZYcU5WQ1Q2c2JuTE11X21ZUVFfNjZBZFdEalBuaDdjWVJ6Y2lMQmFzTmxYcFdORDZfNWdNRVh1SnY1NnE0NU1yNThOandSR1RMcmliUzV6M3JkTkF4R1RCZzVBSXZtN1U4Y1BWSkRLZ0xaLU4zR0c5SldDY1FHejU4SmNuOXRiQndMdldwVzZZNTZ6MzRmLTh1dtIBwgFBVV95cUxPOUYxTEVwWHFpaVAzLWh4d01SUDFmaGlTbWZWeVRwOUNXUVlRODI3UG56UktrbzdOQm5MOElSd1RTbU1McExub1BaMTBSMEQxXzNyVUFXSjBmb0lWMlExM0hTeTlaWGtJdm1YZXJzRzloMGk3a3pYcWRnTDJzeU50ZE5jalVWV19iQ2hlT080VkQ1RXRpaFpvU3VmdzJ1SGw1UFVnaUtlVUcxTDhXc3NkMW5VVTdhTkozZEdGS3RRV01hZw?oc=5",
    "fecha": "Wed, 14 Oct 2026 07:00:00 GMT",
-   "fuente": "Hora 13 Noticias",
-   "imagen": ""
+   "fuente": "El Colombiano",
+   "imagen": "http://www.bing.com/th?id=ONUT.H32_mZrQlIp_9w8ud-hADA&pid=News&w=900"
   },
   {
    "titulo": "De la cárcel a la casa: testigo clave en el caso contra Miguel Quintero fue enviada a detención domiciliaria",
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQM0c5TFA0bGJSMllFVXc5UUVhUXVxUTUybTU0M0RXVEowU2xGV2VBNlFlNDFPOWk0ancyNnpTWWc5ZURrbVotczBHVENqTmpHRzY3UGRJVngyYngybzhyWlZmYmxtSm9wdkdMckxiRlhWbVlzLTdUdmh2SDlJMEF6X1lYQnJEMS1VRU1hRUthMGNQQXM1SUlsandNa0ZaeGlxZkFNUnl6ODVSaHM2dzR2alVkTGxHbHA1NTBtaTh6SkJYeFN5R214NWs0SjNxc2JQS2VUOGhzVmpTLUYtTnRWRmxRbWp4akQ4dlZtYnN30gHzAUFVX3lxTE5fdnBhMVp2QnpLS1dSUnJ1ZmlaOVYzcXgtN2gzRHNmdzByamNjX2hOOFJoTFpySkJrU3p2SW9ycjA4QmNJTGlLN1ZaOXg0SFJJNDlwWXBWWlJzREdUdEVYTnMtRWxzSmloYU0xRW9RRmNhTTZHbFVFX0FSNGRNeTlmS2RZejNsNXB1R01aNFpUZmhxMzFFalM5MzRXVHVYaG5SN3V0cF9ZdHJtNW5qai16cWdPUzFManA4aUV3enFfUHhKamRXUU9XVVpSR2Q1SnVMd1Q5Ul9iVHFHc0RHcnd1UHNmN1VTcDdBUzhJd0N3bnp2OA?oc=5",
    "fecha": "Wed, 14 Oct 2026 07:00:00 GMT",
    "fuente": "El Tiempo",
+   "imagen": ""
+  },
+  {
+   "titulo": "QuinteroEl 23 de octubre se define el futuro judicial de Miguel Quintero: ¿Casa por cárcel o prisión?",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1QTdUUkRsWWtvSHFjQTJjMml2c1k0WXBkTGdoYUhUbVRtTUFKRnluYk96ZzlYYWtLcmxfeVF5eDlKSGZsZWlTbEQzT29IX2RBMTZHNjJPOWNWS2FSMnZB?oc=5",
+   "fecha": "Wed, 14 Oct 2026 07:00:00 GMT",
+   "fuente": "Hora 13 Noticias",
    "imagen": ""
   },
   {
@@ -290,7 +290,7 @@
   },
   {
    "titulo": "Tras la medida de casa por cárcel a Miguel Quintero sus abogados renuncian a seguirlo representando",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fwww.las2orillas.co%2ftras-la-medida-de-casa-por-carcel-a-miguel-quintero-sus-abogados-renuncian-a-seguirlo-representando%2f&c=14084805143336779335&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.las2orillas.co%2ftras-la-medida-de-casa-por-carcel-a-miguel-quintero-sus-abogados-renuncian-a-seguirlo-representando%2f&c=14084805143336779335&mkt=es-us",
    "fecha": "Tue, 13 Oct 2026 15:56:00 GMT",
    "fuente": "Las2orillas",
    "imagen": "http://www.bing.com/th?id=ONUT.N1GP_52XHVYuLpebZFaxVQ&pid=News&w=900"
@@ -304,17 +304,17 @@
   },
   {
    "titulo": "¿Miguel Quintero se queda sin defensa? Santiago Trespalacios anunció que deja de ser su abogado",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fsantiago-trespalacios-deja-defensa-miguel-quintero-caso-corrupcion-amva-FO42193987&c=17557874395383189244&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fsantiago-trespalacios-deja-defensa-miguel-quintero-caso-corrupcion-amva-FO42193987&c=17557874395383189244&mkt=es-us",
    "fecha": "Tue, 13 Oct 2026 12:40:00 GMT",
    "fuente": "El Colombiano",
    "imagen": "http://www.bing.com/th?id=ONUT.5aDKGnvFUtsYsY3usqkBKw&pid=News&w=900"
   },
   {
    "titulo": "Miguel Quintero, hermano de Daniel Quintero, se quedó sin defensa: abogado renunció en medio de batalla judicial por corrupción en Bomberos de Itagüí",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f10%2f13%2fmiguel-quintero-hermano-de-daniel-quintero-se-quedo-sin-defensa-abogado-renuncio-en-medio-de-batalla-judicial-por-corrupcion-en-bomberos-de-itagui%2f&c=13106738697924877318&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f10%2f13%2fmiguel-quintero-hermano-de-daniel-quintero-se-quedo-sin-defensa-abogado-renuncio-en-medio-de-batalla-judicial-por-corrupcion-en-bomberos-de-itagui%2f&c=13106738697924877318&mkt=es-us",
    "fecha": "Tue, 13 Oct 2026 11:37:00 GMT",
    "fuente": "Infobae",
-   "imagen": "http://www.bing.com/th?id=ONUT.5pSSRnWfVz312nLLAD0VyA&pid=News&w=900"
+   "imagen": ""
   },
   {
    "titulo": "Miguel Quintero se quedó sin el abogado que logró que, por ahora, le dieran casa por cárcel; ¿cuáles serían las posibles razones?",
@@ -402,9 +402,16 @@
   },
   {
    "titulo": "Revelan nuevas conversaciones que comprometerían a Miguel Quintero y sus “socios” en caso de corrupción en Medellín: un exgobernador fue salpicado",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f10%2f07%2frevelan-nuevas-conversaciones-que-comprometerian-a-miguel-quintero-y-sus-socios-en-caso-de-corrupcion-en-medellin-un-exgobernador-fue-salpicado%2f&c=13454851213570703937&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f10%2f07%2frevelan-nuevas-conversaciones-que-comprometerian-a-miguel-quintero-y-sus-socios-en-caso-de-corrupcion-en-medellin-un-exgobernador-fue-salpicado%2f&c=13454851213570703937&mkt=es-us",
    "fecha": "Wed, 07 Oct 2026 09:06:00 GMT",
    "fuente": "Infobae",
+   "imagen": ""
+  },
+  {
+   "titulo": "Nuevas imágenes de la reseña a Miguel Quintero, investigado por corrupción en Medellín",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.semana.com%2fpolitica%2farticulo%2fnuevas-imagenes-de-la-resena-a-miguel-quintero-investigado-por-corrupcion-en-medellin%2f202645%2f&c=17994118519104875042&mkt=es-us",
+   "fecha": "Tue, 06 Oct 2026 06:45:00 GMT",
+   "fuente": "Semana",
    "imagen": ""
   },
   {
@@ -458,7 +465,7 @@
   },
   {
    "titulo": "Atención: ordenan detención domiciliaria contra Miguel Quintero, hermano del exalcalde de Medellín Daniel Quintero, por caso de corrupción en el AMVA",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5067434b6eb7c3595ab1d6c84f&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnews%2fother%2fatenci%c3%b3n-ordenan-detenci%c3%b3n-domiciliaria-contra-miguel-quintero-hermano-del-exalcalde-de-medell%c3%adn-daniel-quintero-por-caso-de-corrupci%c3%b3n-en-el-amva%2far-AA2ds4Yp&c=17166070200035617303&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnews%2fother%2fatenci%c3%b3n-ordenan-detenci%c3%b3n-domiciliaria-contra-miguel-quintero-hermano-del-exalcalde-de-medell%c3%adn-daniel-quintero-por-caso-de-corrupci%c3%b3n-en-el-amva%2far-AA2ds4Yp&c=17166070200035617303&mkt=es-us",
    "fecha": "Fri, 02 Oct 2026 13:51:31 GMT",
    "fuente": "El Tiempo on MSN",
    "imagen": ""
@@ -478,6 +485,13 @@
    "imagen": ""
   },
   {
+   "titulo": "Abogado de Miguel Quintero Calle pide que pruebas de la Fiscalía sean declaradas ilegales y que no sea enviado a la cárcel",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c2506d48099ecda3b968a650d3&url=https%3a%2f%2fwww.semana.com%2fnacion%2fmedellin%2farticulo%2fabogado-de-miguel-quintero-calle-pide-que-pruebas-de-la-fiscalia-sean-declaradas-ilegales-y-que-este-no-sea-enviado-a-la-carcel%2f202624%2f&c=12482967007706170110&mkt=es-us",
+   "fecha": "Mon, 28 Sep 2026 17:23:00 GMT",
+   "fuente": "Semana",
+   "imagen": ""
+  },
+  {
    "titulo": "Reanudan audiencia en la que Fiscalía pide que envíen a prisión a Miguel Quintero por caso de corrupción en Medellín",
    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ade7f1504934520b16f2bef08912c6a&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fotras%2freanudan-audiencia-en-la-que-fiscal%25C3%25ADa-pide-que-env%25C3%25ADen-a-prisi%25C3%25B3n-a-miguel-quintero-por-caso-de-corrupci%25C3%25B3n-en-medell%25C3%25ADn%2far-AA2cGZGn&c=18197390554904614807&mkt=es-us",
    "fecha": "Mon, 21 Sep 2026 12:46:56 GMT",
@@ -493,14 +507,14 @@
   },
   {
    "titulo": "Misael Cadavid dice que Daniel Quintero vendió Afinia por 5 millones de dólares y dio otros explosivos testimonios",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fmisael-cadavid-dice-que-daniel-quintero-vendio-afinia-por-5-millones-de-dolares-y-dio-otros-explosivos-testimonios-MO41292790&c=1063650221579546177&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fmisael-cadavid-dice-que-daniel-quintero-vendio-afinia-por-5-millones-de-dolares-y-dio-otros-explosivos-testimonios-MO41292790&c=1063650221579546177&mkt=es-us",
    "fecha": "Sat, 19 Sep 2026 16:01:00 GMT",
    "fuente": "El Colombiano",
    "imagen": ""
   },
   {
    "titulo": "Fiscalía imputó al hermano de Daniel Quintero por presunta corrupción en contratos de $17.600 millones: estos son los cargos",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f09%2f10%2ffiscalia-imputo-al-hermano-de-daniel-quintero-por-presunta-corrupcion-en-contratos-de-17600-millones-estos-son-los-cargos%2f&c=1739186823788399041&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f09%2f10%2ffiscalia-imputo-al-hermano-de-daniel-quintero-por-presunta-corrupcion-en-contratos-de-17600-millones-estos-son-los-cargos%2f&c=1739186823788399041&mkt=es-us",
    "fecha": "Thu, 10 Sep 2026 05:06:00 GMT",
    "fuente": "Infobae",
    "imagen": ""
@@ -514,7 +528,7 @@
   },
   {
    "titulo": "Escándalo en Medellín: Fiscalía llama a juicio a exfuncionarios de la alcaldía Quintero por sobrecostos multimillonarios en el deporte",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.eltiempo.com%2fcolombia%2fmedellin%2fescandalo-en-medellin-fiscalia-llama-a-juicio-a-exfuncionarios-de-la-alcaldia-quintero-por-sobrecostos-multimillonarios-en-el-deporte-3578617&c=2851743221095748875&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.eltiempo.com%2fcolombia%2fmedellin%2fescandalo-en-medellin-fiscalia-llama-a-juicio-a-exfuncionarios-de-la-alcaldia-quintero-por-sobrecostos-multimillonarios-en-el-deporte-3578617&c=2851743221095748875&mkt=es-us",
    "fecha": "Sat, 15 Aug 2026 04:21:00 GMT",
    "fuente": "El Tiempo",
    "imagen": ""
@@ -528,7 +542,7 @@
   },
   {
    "titulo": "Estalla carrusel de Daniel Quintero: Fiscalía llama a imputación a su hermano Miguel y pedirá aseguramiento en cárcel",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae00402e16948669d7884d0f0541004&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fmiguel-quintero-fiscalia-imputacion-carcel-daniel-quintero-corrupcion-JF38685862&c=6062813796959106344&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fmiguel-quintero-fiscalia-imputacion-carcel-daniel-quintero-corrupcion-JF38685862&c=6062813796959106344&mkt=es-us",
    "fecha": "Thu, 09 Jul 2026 15:48:00 GMT",
    "fuente": "El Colombiano",
    "imagen": ""
@@ -549,14 +563,14 @@
   },
   {
    "titulo": "‘No genera confianza’: voces del sector reaccionan a la eventual llegada de Daniel Quintero a la Superintendencia de Salud",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.eltiempo.com%2fsalud%2fno-genera-confianza-voces-del-sector-reaccionan-a-la-eventual-llegada-de-daniel-quintero-a-la-superintendencia-de-salud-3548226&c=313132979578639048&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.eltiempo.com%2fsalud%2fno-genera-confianza-voces-del-sector-reaccionan-a-la-eventual-llegada-de-daniel-quintero-a-la-superintendencia-de-salud-3548226&c=313132979578639048&mkt=es-us",
    "fecha": "Wed, 15 Apr 2026 11:33:00 GMT",
    "fuente": "El Tiempo",
    "imagen": ""
   },
   {
    "titulo": "Daniel Quintero aseguró que alcalde de Medellín se ‘inventó’ el presunto plan de las disidencias para atentar en su contra: “Un farsante”",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f03%2f02%2fdaniel-quintero-aseguro-que-alcalde-de-medellin-se-invento-el-presunto-plan-de-las-disidencias-para-atentar-en-su-contra-un-farsante%2f&c=4539169358893017979&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2026%2f03%2f02%2fdaniel-quintero-aseguro-que-alcalde-de-medellin-se-invento-el-presunto-plan-de-las-disidencias-para-atentar-en-su-contra-un-farsante%2f&c=4539169358893017979&mkt=es-us",
    "fecha": "Mon, 02 Mar 2026 10:20:00 GMT",
    "fuente": "Infobae",
    "imagen": ""
@@ -570,28 +584,28 @@
   },
   {
    "titulo": "Daniel Quintero recibió el aval del Movimiento Autoridades Indígenas de Colombia para aspirar a la Presidencia: ¿se enciende un nuevo debate jurídico?",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fwww.semana.com%2fpolitica%2farticulo%2fdaniel-quintero-recibio-el-aval-del-movimiento-autoridades-indigenas-de-colombia-para-aspirar-a-la-presidencia-se-enciende-un-nuevo-debate-juridico%2f202501%2f&c=3228523684672882919&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fwww.semana.com%2fpolitica%2farticulo%2fdaniel-quintero-recibio-el-aval-del-movimiento-autoridades-indigenas-de-colombia-para-aspirar-a-la-presidencia-se-enciende-un-nuevo-debate-juridico%2f202501%2f&c=3228523684672882919&mkt=es-us",
    "fecha": "Mon, 15 Dec 2025 09:24:00 GMT",
    "fuente": "Semana",
    "imagen": ""
   },
   {
    "titulo": "Daniel Quintero no podría aspirar a la Presidencia de Colombia por otro partido o movimiento: MOE explica las causas",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e509a9d429eaaf6293641f6d71b&url=https%3a%2f%2fes-us.noticias.yahoo.com%2fdaniel-quintero-aspirar-presidencia-colombia-113000095.html&c=5361792998677948700&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c19d944ad8addf7cbc866d8002&url=https%3a%2f%2fes-us.noticias.yahoo.com%2fdaniel-quintero-aspirar-presidencia-colombia-113000095.html&c=5361792998677948700&mkt=es-us",
    "fecha": "Thu, 16 Oct 2025 04:30:00 GMT",
    "fuente": "Yahoo Noticias en Español",
    "imagen": ""
   },
   {
    "titulo": "Suspenden audiencia de caso Metroparques Inder Cyan por perdido de la defensa",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fcaracol.com.co%2f2025%2f04%2f04%2fsuspenden-audiencia-de-caso-metroparques-inder-cyan-por-perdido-de-la-defensa%2f&c=11059847170530230311&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2fcaracol.com.co%2f2025%2f04%2f04%2fsuspenden-audiencia-de-caso-metroparques-inder-cyan-por-perdido-de-la-defensa%2f&c=11059847170530230311&mkt=es-us",
    "fecha": "Fri, 04 Apr 2025 03:14:00 GMT",
    "fuente": "Caracol Radio",
    "imagen": ""
   },
   {
    "titulo": "Personería de Medellín imputó cargos a exfuncionarios de la administración Quintero en el Inder y Metroparques por presunta corrupción",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fcorrupcion-inder-metroparques-medellin-daniel-quintero-OG27030097&c=5832660031323749628&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fcorrupcion-inder-metroparques-medellin-daniel-quintero-OG27030097&c=5832660031323749628&mkt=es-us",
    "fecha": "Thu, 03 Apr 2025 12:23:00 GMT",
    "fuente": "El Colombiano",
    "imagen": ""
@@ -605,70 +619,70 @@
   },
   {
    "titulo": "Cuatro exfuncionarios del Inder Medellín en la alcaldía de Daniel Quintero son investigados por la Personería",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fwww.eltiempo.com%2fcolombia%2fmedellin%2fcuatro-exfuncionarios-del-inder-medellin-en-la-alcaldia-de-daniel-quintero-son-investigados-por-la-personeria-3417439&c=14967065216907287127&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2fwww.eltiempo.com%2fcolombia%2fmedellin%2fcuatro-exfuncionarios-del-inder-medellin-en-la-alcaldia-de-daniel-quintero-son-investigados-por-la-personeria-3417439&c=14967065216907287127&mkt=es-us",
    "fecha": "Tue, 14 Jan 2025 08:35:00 GMT",
    "fuente": "El Tiempo",
    "imagen": ""
   },
   {
    "titulo": "Fiscalía busca llevar a prisión a tres exfuncionarios de Daniel Quintero por irregularidades en Inder: pagarían hasta 10 años de cárcel",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2024%2f12%2f09%2ffiscalia-busca-llevar-a-prision-a-tres-exfuncionarios-de-daniel-quintero-por-irregularidades-en-contratacion-en-inder-podrian-pagar-hasta-10-anos-de-carcel%2f&c=17774730657483601860&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2024%2f12%2f09%2ffiscalia-busca-llevar-a-prision-a-tres-exfuncionarios-de-daniel-quintero-por-irregularidades-en-contratacion-en-inder-podrian-pagar-hasta-10-anos-de-carcel%2f&c=17774730657483601860&mkt=es-us",
    "fecha": "Mon, 09 Dec 2024 07:31:00 GMT",
    "fuente": "Infobae",
    "imagen": ""
   },
   {
    "titulo": "Imputan a exdirectora del Inder de Daniel Quintero por peculado y contratación irregular",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e5151904c6681e72638c27895ef&url=https%3a%2f%2fcaracol.com.co%2f2024%2f10%2f07%2fimputan-a-exdirectora-del-inder-de-daniel-quintero-por-peculado-y-contratacion-irregular%2f&c=12740253490311264292&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c243d64c2dbc023624da12b2d9&url=https%3a%2f%2fcaracol.com.co%2f2024%2f10%2f07%2fimputan-a-exdirectora-del-inder-de-daniel-quintero-por-peculado-y-contratacion-irregular%2f&c=12740253490311264292&mkt=es-us",
    "fecha": "Mon, 07 Oct 2024 06:44:00 GMT",
    "fuente": "Caracol Radio",
    "imagen": ""
   },
   {
    "titulo": "Fiscalía le imputa peculado y contratación irregular a exdirectora del Instituto de Deportes de Daniel Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.semana.com%2fnacion%2fmedellin%2farticulo%2ffiscalia-le-imputa-peculado-y-contratacion-irregular-a-exdirectora-del-instituto-de-deportes-de-daniel-quintero%2f202431%2f&c=16680376655882565212&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.semana.com%2fnacion%2fmedellin%2farticulo%2ffiscalia-le-imputa-peculado-y-contratacion-irregular-a-exdirectora-del-instituto-de-deportes-de-daniel-quintero%2f202431%2f&c=16680376655882565212&mkt=es-us",
    "fecha": "Sun, 06 Oct 2024 17:00:00 GMT",
    "fuente": "Semana",
    "imagen": ""
   },
   {
    "titulo": "Nueva imputación de la Fiscalía contra otra alta funcionaria de la administración de Daniel Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fimputan-a-maria-eugenia-dominguez-de-metroparques-por-corrupcion-con-cyan-eventos-PA24538236&c=858484487085062989&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fimputan-a-maria-eugenia-dominguez-de-metroparques-por-corrupcion-con-cyan-eventos-PA24538236&c=858484487085062989&mkt=es-us",
    "fecha": "Wed, 22 May 2024 00:38:00 GMT",
    "fuente": "El Colombiano",
    "imagen": ""
   },
   {
    "titulo": "Exgerente de Metroparques de Medellín cada vez en más problemas: la Fiscalía le imputó nuevos delitos",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2024%2f01%2f18%2fimputan-por-tercera-vez-a-jorge-enrique-lievano-exgerente-de-metroparques-de-medellin%2f&c=6085694963995224171&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.infobae.com%2fcolombia%2f2024%2f01%2f18%2fimputan-por-tercera-vez-a-jorge-enrique-lievano-exgerente-de-metroparques-de-medellin%2f&c=6085694963995224171&mkt=es-us",
    "fecha": "Thu, 18 Jan 2024 09:32:00 GMT",
    "fuente": "Infobae",
    "imagen": ""
   },
   {
    "titulo": "Fiscalía destapó sus cartas contra cinco alfiles del exalcalde Daniel Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.vanguardia.com%2fcolombia%2f2024%2f01%2f18%2ffiscalia-destapo-sus-cartas-contra-cinco-alfiles-del-exalcalde-daniel-quintero%2f&c=15578604281884120087&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.vanguardia.com%2fcolombia%2f2024%2f01%2f18%2ffiscalia-destapo-sus-cartas-contra-cinco-alfiles-del-exalcalde-daniel-quintero%2f&c=15578604281884120087&mkt=es-us",
    "fecha": "Thu, 18 Jan 2024 05:10:00 GMT",
    "fuente": "Vanguardia",
    "imagen": ""
   },
   {
    "titulo": "Imputan más cargos por presunto ‘carrusel de la contratación’ a exgerente de Metroparques",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.wradio.com.co%2f2024%2f01%2f17%2fimputan-mas-cargos-por-presunto-carrusel-de-la-contratacion-a-exgerente-de-metroparques%2f&c=11837443752553001799&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.wradio.com.co%2f2024%2f01%2f17%2fimputan-mas-cargos-por-presunto-carrusel-de-la-contratacion-a-exgerente-de-metroparques%2f&c=11837443752553001799&mkt=es-us",
    "fecha": "Wed, 17 Jan 2024 01:38:00 GMT",
    "fuente": "W Radio",
    "imagen": ""
   },
   {
    "titulo": "Fiscalía imputa a exgerente de Metroparques y a mega contratista de Quintero por contrato de Presupuesto Participativo",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fimputacion-metroparques-y-cyan-eventos-por-contrato-de-presupuesto-participativo-del-inder-GA23540464&c=14955791969088079882&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fwww.elcolombiano.com%2fmedellin%2fimputacion-metroparques-y-cyan-eventos-por-contrato-de-presupuesto-participativo-del-inder-GA23540464&c=14955791969088079882&mkt=es-us",
    "fecha": "Mon, 15 Jan 2024 16:00:00 GMT",
    "fuente": "El Colombiano",
    "imagen": ""
   },
   {
    "titulo": "Fiscalía imputa a exsecretaria, exgerente y contratista de la alcaldía de Quintero",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae04e52265748ecb0f25fc03cdc8e8c&url=https%3a%2f%2fcaracol.com.co%2f2024%2f01%2f15%2ffiscalia-imputa-a-exsecretaria-exgerente-y-contratista-de-la-alcaldia-de-quintero%2f&c=3784914746110161486&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae0a6c328a847b4b0505b6842f7e92f&url=https%3a%2f%2fcaracol.com.co%2f2024%2f01%2f15%2ffiscalia-imputa-a-exsecretaria-exgerente-y-contratista-de-la-alcaldia-de-quintero%2f&c=3784914746110161486&mkt=es-us",
    "fecha": "Mon, 15 Jan 2024 15:36:00 GMT",
    "fuente": "Caracol Radio",
    "imagen": ""
@@ -724,22 +738,16 @@
    "hace": "hace 8 m"
   },
   {
-   "id": "jQJOaHmGtnI",
-   "titulo": "Hablan exfuncionarios de Daniel Quintero que fueron destituidos e inhabilitados por la Procuraduría",
-   "canal": "Noticias Caracol",
-   "hace": "hace 1 a"
-  },
-  {
-   "id": "k_wHbP480nU",
-   "titulo": "La Procuraduría confirmó la sanción de 6 meses de inhabilidad a Daniel Quintero: ¿qué se sabe?",
-   "canal": "Noticias Caracol",
-   "hace": "hace 11 m"
-  },
-  {
    "id": "81tbd_z6QRs",
    "titulo": "La Fiscalía archivará caso de injuria y calumnia contra Daniel Quintero",
    "canal": "Noticias Caracol",
    "hace": "hace 3 a"
+  },
+  {
+   "id": "jQJOaHmGtnI",
+   "titulo": "Hablan exfuncionarios de Daniel Quintero que fueron destituidos e inhabilitados por la Procuraduría",
+   "canal": "Noticias Caracol",
+   "hace": "hace 1 a"
   },
   {
    "id": "LX819Ca03d0",
@@ -758,6 +766,12 @@
    "titulo": "Los reparos de Gustavo Bolívar contra Daniel Quintero y su apoyo a Iván Cepeda",
    "canal": "Noticias Caracol",
    "hace": "hace 1 a"
+  },
+  {
+   "id": "vjd6iAXh-Qw",
+   "titulo": "Procuraduría niega nulidad en caso del exalcalde Daniel Quintero",
+   "canal": "Noticias Caracol",
+   "hace": "hace 2 a"
   }
  ]
 }
