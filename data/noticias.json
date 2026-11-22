@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T01:57:10.376Z",
+ "actualizado": "2026-11-22T09:23:27.310Z",
  "items": [
   {
    "titulo": "Arbitraje bajo lupa en el Akron: Daniel Quintero calienta el Chivas vs Cruz Azul, ¿hay dudas?",
@@ -10,7 +10,7 @@
   },
   {
    "titulo": "Nuevo revés para Miguel Quintero: jueza frenó intento para sacarlo de Cómbita y llevarlo a Antioquia",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b024bf038ea4389a866f2f38409ffad&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fotras%2fnuevo-rev%25C3%25A9s-para-miguel-quintero-jueza-fren%25C3%25B3-intento-para-sacarlo-de-c%25C3%25B3mbita-y-llevarlo-a-antioquia%2far-AA2hVteJ&c=12101272985363201335&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02b48a477d443f94416f61b45aa71e&url=https%3a%2f%2fwww.msn.com%2fes-co%2fnoticias%2fotras%2fnuevo-rev%25C3%25A9s-para-miguel-quintero-jueza-fren%25C3%25B3-intento-para-sacarlo-de-c%25C3%25B3mbita-y-llevarlo-a-antioquia%2far-AA2hVteJ&c=12101272985363201335&mkt=es-us",
    "fecha": "Sat, 21 Nov 2026 05:04:02 GMT",
    "fuente": "Publimetro on MSN",
    "imagen": "http://www.bing.com/th?id=ONUT.XZQdE84cyNd9D7uvezp9UQ&pid=News&w=900"
@@ -20,6 +20,13 @@
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUnZjU3REcWEtWDNWNUNIS1FIb0VZUlQzWENxUEVhZE9RR0R6VmFpWkF2Vzg0SE1vcE5lVGViYmh0WndIM2ZMVGYwRDBXMFZUQjNvUUhfZW9XcER6bEZJaUZ1Wk9KWXB1T0k3X0lxMnBEQVRUZkxrV2FCbTA5U0tHMlhsTkVzTVBDNThvMnQtNmg3eEZQMVJfT3BWRWVtZFIwckhxYk1KY1dkcmJOWjYzQnJzZEZraTBiMzBINFlVRDJoVEN1TlE3Nm9HZHdsc0x4eHl6Rk5WakpFQQ?oc=5",
    "fecha": "Fri, 20 Nov 2026 22:51:00 GMT",
    "fuente": "Nación Fútbol",
+   "imagen": ""
+  },
+  {
+   "titulo": "Miguel Quintero se queda en Cómbita: le tumbaron otra tutela que pedía llevarlo a Itagüí",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLTA5ZVl5U0F2Ty03bTVsZF9JVjlJUzZ1ZndOUE5kY1dvUE9HcnpfZHRxUXlEV0ZlemNVZ1RxS3JuREJDTjhDLTZ5UldJMHJqQWU2dVpVWk1LU1Rta1RMc180SU1TNnZTbzNxdGhtUFZUX1RkYTFOMEFHUWRlcFhpY3EweS1QQQ?oc=5",
+   "fecha": "Fri, 20 Nov 2026 20:40:22 GMT",
+   "fuente": "Minuto30",
    "imagen": ""
   },
   {
@@ -42,13 +49,6 @@
    "fecha": "Fri, 20 Nov 2026 10:30:01 GMT",
    "fuente": "Somos Chivas",
    "imagen": ""
-  },
-  {
-   "titulo": "Miguel Quintero se queda en Cómbita: le tumbaron otra tutela que pedía llevarlo a Itagüí",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b024bf038ea4389a866f2f38409ffad&url=https%3a%2f%2fwww.minuto30.com%2fmiguel-quintero-tutela-traslado-carcel-itagui%2f1732647%2f&c=3754614616334829330&mkt=es-us",
-   "fecha": "Fri, 20 Nov 2026 07:40:00 GMT",
-   "fuente": "Minuto30",
-   "imagen": "http://www.bing.com/th?id=ONUT.x9_LCP_-3o0_Ap9GXbDh1Q&pid=News&w=900"
   },
   {
    "titulo": "Mi gran sueño es llegar a la IndyCar Series: Daniel Quintero",
@@ -79,13 +79,6 @@
    "imagen": ""
   },
   {
-   "titulo": "Miguel Quintero seguirá preso en Cómbita: jueza rechazó nuevo intento de traslado a Antioquia | El Colombiano",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUTRGRVh5OE55aWN3QzAwZU80NDROWTNSb1YyRzk4cnk2V1ZWbFlMVDJJUWl5YWhSc3VienJraFhTaWdfOVB4VmdiQm92QlNaSjJoSVZSS0pLSFBYQktIRVB1aFcwYjM4MXBUWV9iUk9rb05rdjlMUTJLS3VtR3ZBMlh2NjdMY3pFS0NvLVVhaGlvc1lDU2k2cEZoM1lJVDU4bVNTbm4zal9oSHhtVG9lc3FUZUlpaXB2RXZnY3paRlY1a0HSAcMBQVVfeXFMT1E0RkVYeThOeWljd0MwMGVPNDQ0TlkzUm9WMkc5OHJ5NldWVmxZTFQySVFpeWFoUnN1Ynpya2hYU2lnXzlQeFZnYkJvdkJTWkoyaElWUktKS0hQWEJLSEVQdWhXMGIzODFwVFlfYlJPa29Oa3Y5TFEyS0t1bUd2QTJYdjY3TGN6RUtDby1VYWhpb3NZQ1NpNnBGaDNZSVQ1OG1TU25uM2pfaEh4bVRvZXNxVGVJaWlwdkV2Z2N6WkZWNWtB?oc=5",
-   "fecha": "Thu, 19 Nov 2026 13:51:25 GMT",
-   "fuente": "El Colombiano",
-   "imagen": "http://www.bing.com/th?id=ONUT.97S57jiQr12oJYo5R7Tgbg&pid=News&w=900"
-  },
-  {
    "titulo": "Juez negó traslado de Miguel Quintero a una cárcel de Antioquia ¿por qué?",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1Z0gtZ0JWSTE2aEM5VGxPVVJubXVlRU96NDQ3TXBmbmFyZFRGUUhmNEFBdnpVMTFoLUJiSVdRNzdHQWk5TFJJOUVWR0tYTXJtX1ZEN0dQbnIxNjVBX25OSXc2NTUxMnpQVWJBckNJUU9BUVJUV3c?oc=5",
    "fecha": "Thu, 19 Nov 2026 12:58:17 GMT",
@@ -100,11 +93,18 @@
    "imagen": "http://www.bing.com/th?id=ONUT.6HB_mi7V6Yw-8trwkehAlQ&pid=News&w=900"
   },
   {
+   "titulo": "Miguel Quintero seguirá preso en Cómbita: jueza rechazó nuevo intento de traslado a Antioquia",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02b48a477d443f94416f61b45aa71e&url=https%3a%2f%2fes-us.noticias.yahoo.com%2fmiguel-quintero-seguir%25C3%25A1-preso-c%25C3%25B3mbita-143128667.html&c=4400389760896742864&mkt=es-us",
+   "fecha": "Thu, 19 Nov 2026 06:31:00 GMT",
+   "fuente": "Yahoo Noticias en Español",
+   "imagen": "http://www.bing.com/th?id=ONUT.97S57jiQr12oJYo5R7Tgbg&pid=News&w=900"
+  },
+  {
    "titulo": "El oro, los contratos y el testimonio que vuelve a poner a Daniel y Miguel Quintero en el radar de la justicia",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUWtqRzZRYXV2eFlsUVRoRzFXMGQzaTJ6OFBoZDg0OFAwQ05yc0x0dUxrc21zemRXZ0JJU3RKdlMxekFjSktUaXZ4MUdVdl81czZtUVZyMmtoNnNNdWxESlZraGV5QjA3Ni13NWFXZ3hYOWJlMXFzaGZfQkV4WVpJQXpWLTF2aHpSU0IyMm1BNnpkbTA4SDBjU2ZSLXF1QVp4SWYweC00ZmkzR3UyQ1ZKQzRnd1hndVhKalBjOUJiY3BJdjNQWXRZRm10YXRoLXBTVmtR?oc=5",
    "fecha": "Tue, 17 Nov 2026 13:44:41 GMT",
    "fuente": "Las2orillas",
-   "imagen": ""
+   "imagen": "http://www.bing.com/th?id=ONUT.srXnjg_vbSUfI4WwCNibSQ&pid=News&w=900"
   },
   {
    "titulo": "“¿El Tigre o De la Espriella?”: Daniel Quintero lanzó duros reparos tras alocución oficial",
@@ -121,17 +121,17 @@
    "imagen": "http://www.bing.com/th?id=ONUT.BxIhuT9eJr783ruvr9Teuw&pid=News&w=900"
   },
   {
-   "titulo": "Procuraduría archivó investigación contra 6 exfuncionarios de Daniel Quintero en caso Aguas Vivas",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b024bf038ea4389a866f2f38409ffad&url=https%3a%2f%2fwww.bluradio.com%2fregiones%2fantioquia%2fprocuraduria-archivo-investigacion-contra-6-exfuncionarios-de-daniel-quintero-en-caso-aguas-vivas-rg10&c=7158755849211321793&mkt=es-us",
-   "fecha": "Fri, 13 Nov 2026 11:29:00 GMT",
-   "fuente": "Blu Radio",
-   "imagen": "http://www.bing.com/th?id=ONUT.1Ba3dLLDT6ygfTh1GAbTww&pid=News&w=900"
-  },
-  {
    "titulo": "Polémica en Medellín por procurador que ha archivado varios procesos a Daniel Quintero y exfuncionarios",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUkhVVW8zSVNXNHdoRUVlamFRUWw3Y0ZncWhzM3ZoWFQ3aDBXMklGMWFFT2J3SlIxNjVkTXY5YThzbmhGUUhZbDIxRVRTV3hNQkptdm44enNES2tPM1F4Y2lPV1I0bHBVTTJwQWVqQVc2MW56TThUdTBpV0xQa3pfWg?oc=5",
    "fecha": "Fri, 13 Nov 2026 08:00:00 GMT",
    "fuente": "Telemedellín",
+   "imagen": ""
+  },
+  {
+   "titulo": "Procuraduría archivó investigación contra 6 exfuncionarios de Daniel Quintero en caso Aguas Vivas",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcnN1QWJURkU0SmhoRmo2SU1wYklBa2Rxa0hDMzYwcE9EdVlkaWZwNWdMa1V0OWtueHl3MndlSjFEOXJyYlVsUkpvSnMzT1hidFF6Ty1kV0F2R0ZEa2pCaEZPTU83Y29YRWNpczRRcVRUbURWVUhva2JEUnpYQ2pMUWhiYUtFSF9aa00tN0hySWFRQjcxTm11bVVqamJhR19NWW45T0lHQVV3OW9ja0tEVE5jSVdBR1lxakFMdFNyNDFHSm42aUJibVZGWl9lbDBZdHo3NnNicHpkOTZsZVpV0gHsAUFVX3lxTFBzOW5fblNRcndoZXQ0XzR4cTZjM0VEbXhHNFJib2RXcXZ1ZlFGai10dUZmWVZVSm1yelV6TDNIeTJ1cE5HWXozMW9kQndFbG9Ea2xGMHhVYkVqb0FhTEhVRWhhcVQwalFQS0dwanlUZU1IbDloVGdlRW1ySHBPeEJpc09WVThueWxHejF6Ynl2blZZeWl0UDYxZjlBYmhua05aVWgxM3g2OGp3bWNRenhVaDZxZkl5WUU5MHZONEVXcDJyOUtzMW5pQWlFOURDbFhEZUZtaVpnQkdESDdZSEhqWDdMQ29pYzRxSThf?oc=5",
+   "fecha": "Fri, 13 Nov 2026 08:00:00 GMT",
+   "fuente": "Blu Radio",
    "imagen": ""
   },
   {
@@ -163,17 +163,17 @@
    "imagen": ""
   },
   {
-   "titulo": "Caso Aguas Vivas: Procuraduría absuelve a seis funcionarios de la Alcaldía de Medellín en la época de Daniel Quintero",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMVZ6YWdSY2JGWXFZSFVsWXd0MWFwN2ZHekFlSGl5RDdkMTkzZlo0cTc2cTN4VXdMYkowVzlrR0dzTlNvb3QtNDloX056MG55SzhZVnV4SkdWajNBNU0zQURRNUYwbHUzUU9aaC1OODV3OUdLQ21kZGk2RXFycTVySE9pbFZEc0hNOFpRVXVNa0dyTkdzVXhya216SEw3UUHSAZ8BQVVfeXFMT25tbVZpbkNHU0hfWms0eHBZOWlwR0JSTm9namhBY01aNUdaeUVIaDJwT3J2eERQdXVsRDIxbWwtTkpIOXdpSFZhZ2NuT0NGVk1KN1VSSXljZk10STJqa0w2VkpwM0Q2UmxMV1RYUWhoaXE3SW5WeXhHNWxaR09jNmVFT2lnWkNydl9WQ21hS3F1dW5KblhKY0tjOUY3UkVV?oc=5",
-   "fecha": "Thu, 12 Nov 2026 08:00:00 GMT",
-   "fuente": "La FM",
-   "imagen": ""
-  },
-  {
    "titulo": "La Procuraduría exoneró a siete exfuncionarios de la alcaldía de Quintero en el caso de Aguas Vivas",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbG05aUZVQWpMcVVYTVRBNThQWnR5TDFJekszRXBnNTVXLWhnRnhpRE03VkRkNEV1UEtnWTVKa0RSMUxEbFVWMl85andsLWxiTjQ0bzN5LXZlNDR2NWdQVFFzamk2bUNJSzlzWndpZ0UwcmhPdVFOQzhtNUxYLXBuNDBCY2ZRMjd4NElzNGtDa1RwNExLX0Y3OFJQdGl3UjZYSk5Yd0JrUnN2dEFBenJNSGVSdnlNWEpseFVDQ0FxU24tRlpHN1RqUHNuZlZIWFHSAeMBQVVfeXFMTWU2NldzRU1rbEVpbDdQb3hJOTdjdFoyOUlfVm4xZm81TUZHei1sY01ZVGF1OFRTQ1RnOWpwbWZnRXFGSDcwQkMxc01SNjB3M1gtS0l0ckFGY2FtcG9HSmFCcXdWeGtUVnlqU3hPRUd6WkZnNmJYN1BzV0VxUkNJNFhiQzFweFA0Q2IxRjFENEc3MVBHZG1vOHJQV0hINldVYWtsVHllTktIM0VfM3d4ZllWRkVtUUgwOXo3a2hUV1hGMkg1ZFJHN2pBaUlfVjFsM0ZlVERQTnJlZjUxeUxTVjliQjA?oc=5",
    "fecha": "Thu, 12 Nov 2026 08:00:00 GMT",
    "fuente": "Caracol Radio",
+   "imagen": ""
+  },
+  {
+   "titulo": "Caso Aguas Vivas: Procuraduría absuelve a seis funcionarios de la Alcaldía de Medellín en la época de Daniel Quintero",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMVZ6YWdSY2JGWXFZSFVsWXd0MWFwN2ZHekFlSGl5RDdkMTkzZlo0cTc2cTN4VXdMYkowVzlrR0dzTlNvb3QtNDloX056MG55SzhZVnV4SkdWajNBNU0zQURRNUYwbHUzUU9aaC1OODV3OUdLQ21kZGk2RXFycTVySE9pbFZEc0hNOFpRVXVNa0dyTkdzVXhya216SEw3UUHSAZ8BQVVfeXFMT25tbVZpbkNHU0hfWms0eHBZOWlwR0JSTm9namhBY01aNUdaeUVIaDJwT3J2eERQdXVsRDIxbWwtTkpIOXdpSFZhZ2NuT0NGVk1KN1VSSXljZk10STJqa0w2VkpwM0Q2UmxMV1RYUWhoaXE3SW5WeXhHNWxaR09jNmVFT2lnWkNydl9WQ21hS3F1dW5KblhKY0tjOUY3UkVV?oc=5",
+   "fecha": "Thu, 12 Nov 2026 08:00:00 GMT",
+   "fuente": "La FM",
    "imagen": ""
   },
   {
@@ -219,13 +219,6 @@
    "imagen": ""
   },
   {
-   "titulo": "Piden a Fiscalía investigar supuestas presiones a esposa y abogado de Miguel Quintero",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkdNeUdJbE10cnl0WmNGek1DUWFSbko5VFJsazBvZGY3eXlldTB5WG1USTVjd3dzaTFsLTdrQnNndklsaHJmZWU2Ul9mUzlhN21uZVp5NnUzdFlpcERxWW85NE1BQlhQZHlCUXBmcU9uYnZXMFlrN1dFUnl6N3Z3dkwyMDliaEZ4dEF3ekpzWXpHZm1Pall3TWRvZmRrOUtDMm5lTTNXaHc2WHJseW9hLXJQNHpTQXgxU2szdXdTN1NOQdIB1gFBVV95cUxPdjdMbXhSclZENWxrbnFLRGxwY0FGZlVMTkpRbGY4Nkc5Q3ZNWDJib052V09DaHVZdXM0alVjMGlDd1d3RmNvdWxjN0tLQzliNWgxSGZMdDNWdWpQV0Q1cUpLVFhSX1RYZkstVXZKdUNhTWlIYnZXZTB0VGdyekU5cFhHZFV6WkJKUDgxVURkMGFJMkQ5SUVpb3N5ZjJQWm1RZzA1cEdEZlRtSmluTUlxcVdEU0hQS0ZHZkdqN0pIMzFhdkNtMFp6YTdMd2c1a3dqZWo2Ym53?oc=5",
-   "fecha": "Tue, 10 Nov 2026 22:25:03 GMT",
-   "fuente": "El Espectador",
-   "imagen": ""
-  },
-  {
    "titulo": "Miguel Quintero se quedó sin la cárcel que buscaba: Gobernación le negó el traslado",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWp4a3o0ZFZEaW9DT2RnNkJqSnN4ZExnSUZjZ1FLNERiT1VhbkVSWTVnZEQycEJTWm91QlFNdXk1bXVYcE8zSU83SGxnMmxXS3JhZkhlRjhJMXljV3RNNnltZmhSMHF6bUhzZEJJSUdmeWFxVmFkbFAzWWNyN09sdlZhLW5ESGpJbGNrazIzWF9zMUZGVkVSSFFzcHF6TlFTd05kNklOaW4xcXdoeDFQTA?oc=5",
    "fecha": "Tue, 10 Nov 2026 17:19:07 GMT",
@@ -251,6 +244,13 @@
    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUXVwaF9oZzVPdTF6Q3ZvZnJyVlpkSGxlVU1lTlBvcXNDTFNWQUNNQ1B1VnhkRkE2YjNJbHV0NHNxWEhqLTVwdTBlMW5Lb1JBRkUxWG0tX0dzbk5zVURhUTMxdWJOaDFuTFlnRTJUUjRNNVl5TUZpM1VLMWtTMm1nM2NMRGpLLTNubWRUSVFvN1dMUUxnZ0ZxaER1dW9QdlFOdDViOFZobVNaSXV2UDhKWk8xLVNlSVNGVUNNMk9SQVBGUlJWVFNzYy1rMG1UNzBjNENBQmRySkxsODlSWk9XcUpWZ1cyWGJ2UC1aQlgxSHJyc1BpbUE?oc=5",
    "fecha": "Tue, 10 Nov 2026 08:00:00 GMT",
    "fuente": "Itagüí Hoy",
+   "imagen": ""
+  },
+  {
+   "titulo": "Piden a Fiscalía investigar supuestas presiones a esposa y abogado de Miguel Quintero",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkdNeUdJbE10cnl0WmNGek1DUWFSbko5VFJsazBvZGY3eXlldTB5WG1USTVjd3dzaTFsLTdrQnNndklsaHJmZWU2Ul9mUzlhN21uZVp5NnUzdFlpcERxWW85NE1BQlhQZHlCUXBmcU9uYnZXMFlrN1dFUnl6N3Z3dkwyMDliaEZ4dEF3ekpzWXpHZm1Pall3TWRvZmRrOUtDMm5lTTNXaHc2WHJseW9hLXJQNHpTQXgxU2szdXdTN1NOQdIB1gFBVV95cUxPdjdMbXhSclZENWxrbnFLRGxwY0FGZlVMTkpRbGY4Nkc5Q3ZNWDJib052V09DaHVZdXM0alVjMGlDd1d3RmNvdWxjN0tLQzliNWgxSGZMdDNWdWpQV0Q1cUpLVFhSX1RYZkstVXZKdUNhTWlIYnZXZTB0VGdyekU5cFhHZFV6WkJKUDgxVURkMGFJMkQ5SUVpb3N5ZjJQWm1RZzA1cEdEZlRtSmluTUlxcVdEU0hQS0ZHZkdqN0pIMzFhdkNtMFp6YTdMd2c1a3dqZWo2Ym53?oc=5",
+   "fecha": "Tue, 10 Nov 2026 08:00:00 GMT",
+   "fuente": "El Espectador",
    "imagen": ""
   },
   {
@@ -283,7 +283,7 @@
   },
   {
    "titulo": "Daniel Quintero salió a defender a Petro por su visita a Medellín y le reclamó a Fico por la “plata de UNE”",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b024bf038ea4389a866f2f38409ffad&url=https%3a%2f%2fwww.publimetro.co%2fmedellin%2f2026%2f11%2f09%2fdaniel-quintero-salio-a-defender-a-petro-por-su-visita-a-medellin-y-le-reclamo-a-fico-por-la-plata-de-une%2f&c=5688837038790635584&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02b48a477d443f94416f61b45aa71e&url=https%3a%2f%2fwww.publimetro.co%2fmedellin%2f2026%2f11%2f09%2fdaniel-quintero-salio-a-defender-a-petro-por-su-visita-a-medellin-y-le-reclamo-a-fico-por-la-plata-de-une%2f&c=5688837038790635584&mkt=es-us",
    "fecha": "Mon, 09 Nov 2026 09:31:00 GMT",
    "fuente": "Publimetro",
    "imagen": "http://www.bing.com/th?id=ONUT.ZNtXnK05yJde60ox8-LrTw&pid=News&w=900"
@@ -317,17 +317,17 @@
    "imagen": ""
   },
   {
-   "titulo": "Cárcel de Yarumito le cerró las puertas a Miguel Quintero: esta es la razón por la que le negó el cupo",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPLWF1blFaMlJIQ3V1UVlOa3V4TW9aOG5DVmFTTFhweUlaTFBTSExEa05xR191Z3NNNXJMcmVWQ1d2TG4wRDZwT2ZZRjJSRXF4VklhTElVcEE3T3hBcjJVVHV3Y2NvaDU3b0hoSHZqY0FFdGNGVXpTZmhSSlRfZWZNRll0bHo5cWpDWW5UVlhYUUlLYUltUnF5WDRBa1pJQWRWNDdlbmhlY2RhR0p5M3N3cFJmd1BKY3JLVl84MGgxcVVQN19KdnM3cXJtVFppc3FQZkpNOU5VYUFhUFhESV9XNlV6aXhISUNYeXN2R1p3?oc=5",
-   "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
-   "fuente": "Revista Semana",
-   "imagen": ""
-  },
-  {
    "titulo": "Miguel Quintero, hermano de Daniel Quintero, no será trasladado a la cárcel de Yarumito: esta es la razón",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZFMwLUY2Q2tsYWJhZDYyLTVBYVkwLVlUVHI0RmNmTktCSEpsNFJPNVR3TEJrSGlyd2VvV1hKMXdNVmV2aW9nX2JqRGRYZWowbkUtWHMxcXN2NFR0M3k0b2h3N0F6UTFiQVQxRUd0UFNlYVBuOE12aDFfVkhZVFRGU0tBX0lMcHBKLV91LXBhUFhzQjBFV3FFWF9VZHo2dTAyc3MxSUJsWFUtWVZrSEtkU3I0UUdPQzVHZGlyY1ZFM0dkV1FLZGJRYlVYWdIBywFBVV95cUxNbVJvcVR4eTN0bFpQT3VsaFIwcjlha1RydEdFam9qcjNmNmYxNWFyNnp3NHMwbDZfbC1hN3hQRzhiRHpjWG9FbmdCY1VXRXZFM1Mydk14dmctdFczMWlrRmNKWHpUelNjM2xnX2ViWnc4cnJuQ1BSMERNUVpGSE9LcTI4U3ZtaXhKTWpSTU0waXpxQXAzOVUzYWhwanpSUlc4eGxCNXFxZ2NadFd6cHJzcnM4NUJvZzJGTEpVMWtlbFRGNDMtQlRnUWZpSQ?oc=5",
    "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
    "fuente": "La FM",
+   "imagen": ""
+  },
+  {
+   "titulo": "Cárcel de Yarumito le cerró las puertas a Miguel Quintero: esta es la razón por la que le negó el cupo",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPLWF1blFaMlJIQ3V1UVlOa3V4TW9aOG5DVmFTTFhweUlaTFBTSExEa05xR191Z3NNNXJMcmVWQ1d2TG4wRDZwT2ZZRjJSRXF4VklhTElVcEE3T3hBcjJVVHV3Y2NvaDU3b0hoSHZqY0FFdGNGVXpTZmhSSlRfZWZNRll0bHo5cWpDWW5UVlhYUUlLYUltUnF5WDRBa1pJQWRWNDdlbmhlY2RhR0p5M3N3cFJmd1BKY3JLVl84MGgxcVVQN19KdnM3cXJtVFppc3FQZkpNOU5VYUFhUFhESV9XNlV6aXhISUNYeXN2R1p3?oc=5",
+   "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
+   "fuente": "Revista Semana",
    "imagen": ""
   },
   {
@@ -345,17 +345,17 @@
    "imagen": ""
   },
   {
-   "titulo": "Gobernación de Antioquia niega ingreso a la Cárcel Yarumito a Miguel Quintero Calle",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwSTZXRmpvU2tmS3hKcWxuMEFZZkJER09RQWxPWkJoZzhlWUtRLVlrQlJFNi1wREg4T2FtUHp5anJHS3hzLW1ock1NaHkwWEdRUzBISGV1V2hwQ1pJMTJ3VFlwNUpBODlSZDQwLVdHQkN2RHY4a2dxZ1VXNXA?oc=5",
-   "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
-   "fuente": "Telemedellín",
-   "imagen": ""
-  },
-  {
    "titulo": "Gobernación de Antioquia negó cupo a Miguel Quintero en la cárcel Yarumito en Itagüí: las dos razones que frenaron su ingreso",
    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQR011WWpFdUdGV2xUaUM4cUlldWRhZWRIR01oeERBblVyYjZQVHlMNXdxZUU5NmhOallmdTJJUDRDbU51QlhFY1dnNlMxZkNvMDdvNUNtRnZKZERSc3ZLTXhUVUp2dnJQcG9LWnRoRjctS0FxckVZWGxsb05La1YyR1dJZ0k3TnRiQzdnWTJtdUhYcVhWRUx5R3UteVZ5Y1I3akNLalV4SUV6clR1b2E1Z0paejExQkVvVTlEQ0hnQVJtRkU4M2hLMDF5NFdaYmJBQl8yeWR0TTZobnlSNWg0S1R5eVRDVHlhNnBiZTVianFneFEtRTI4SElqbUpWZ9IBigJBVV95cUxPWkk2bXIxVGVMMERCbFJ4Tl9OMjBLeWRISEphZDRScnR5dURSanNnZWhPaXYzUE80cUZpWFViODlfZ0Rpdk1BSks0QjRIX3p0Y2NpeXdQOHptbWY2SkJmZElYNm5lc08wZWdkdWhXNUhITXhxN0gwWFh2cTd5Qjk3ZDRxTEpBZE96V2R6UWw0ekFjYjZpWUhRbVdCWEpWSUJ4dDhIY09qQndYOENvTnd3U0pGQXR4cE5GQUZWQnMxV3lVZ1UxZ3FZXzBpeFVUUGcybjM0U2FpRVNndGdUN1pIbHh1VGxlMjJfeUtBWl9YZEdNTFFnTkxYWkJZTTFSMl9ISnFVSTZXeVl2dw?oc=5",
    "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
    "fuente": "Teleantioquia",
+   "imagen": ""
+  },
+  {
+   "titulo": "Gobernación de Antioquia niega ingreso a la Cárcel Yarumito a Miguel Quintero Calle",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAwSTZXRmpvU2tmS3hKcWxuMEFZZkJER09RQWxPWkJoZzhlWUtRLVlrQlJFNi1wREg4T2FtUHp5anJHS3hzLW1ock1NaHkwWEdRUzBISGV1V2hwQ1pJMTJ3VFlwNUpBODlSZDQwLVdHQkN2RHY4a2dxZ1VXNXA?oc=5",
+   "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
+   "fuente": "Telemedellín",
    "imagen": ""
   },
   {
@@ -377,6 +377,13 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZZWtlUnU3Q1BodzZyZzB3U0Y0VHFsRjBtNHBJZlBxekxSSWVXcksyZE5fS0JmWFgxSnBiNzJlRU9GTkwwTjQ0cERldkVmMm1iVWs1S0hKNTRtd0p5N0RVRWJsWnBQVzcwVGhlV3NtelR5eTRjR2J3SmdIeDFtN1U?oc=5",
    "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
    "fuente": "Minuto30",
+   "imagen": ""
+  },
+  {
+   "titulo": "Niegan cupo en Yarumito a Miguel Quintero; sigue en Cómbita",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQTJxNVY3UE53eUxXSzJJanZ6MFdnUEdaa1N0S1MyWGtmNGtIM1c0OWVTS2x4MnVVR19BU0hBdXVSR1h2X1VNOVQ5TzdHblBGUkpSTmFSenIxaEdhdlFPVmV0QUpTTF9lb0phYThGNzFodmhMTkN3Z1h0YWlUZTZ0YkVmbDZQcFN4VjRKZE9PQzM1bENfeUVvTTMyS29LcjZmdEFqX0liOVoxaWpvYlZMTVhrTHMyWjVqQ1Y3b3gwUkk4bmVPZS1WNlhicDh2UkZQMHFvY25KN0l1Nm5MSlE1VGNDdjJUUQ?oc=5",
+   "fecha": "Mon, 09 Nov 2026 08:00:00 GMT",
+   "fuente": "boyacadigital.com",
    "imagen": ""
   },
   {
@@ -1004,7 +1011,7 @@
   },
   {
    "titulo": "Cargos a exsuperintendente de Salud, Daniel Quintero, por presunta indebida participación en política",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b024bf038ea4389a866f2f38409ffad&url=https%3a%2f%2fdiariolalibertad.com%2f2026%2f11%2f03%2fcargos-a-exsuperintendente-de-salud-daniel-quintero-por-presunta-indebida-participacion-en-politica%2f&c=17327107656715963251&mkt=es-us",
+   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02b48a477d443f94416f61b45aa71e&url=https%3a%2f%2fdiariolalibertad.com%2f2026%2f11%2f03%2fcargos-a-exsuperintendente-de-salud-daniel-quintero-por-presunta-indebida-participacion-en-politica%2f&c=17327107656715963251&mkt=es-us",
    "fecha": "Tue, 03 Nov 2026 07:41:00 GMT",
    "fuente": "Diario La Libertad",
    "imagen": ""
@@ -1042,13 +1049,6 @@
    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af0a99336a1474d9f0a595f96a54e43&url=https%3a%2f%2fwww.colombia.com%2factualidad%2fpolitica%2fdaniel-quintero-enfrenta-cargos-por-presunta-participacion-indebida-en-politica-609953&c=7463216730356482645&mkt=es-us",
    "fecha": "Tue, 03 Nov 2026 01:57:00 GMT",
    "fuente": "Colombia.com",
-   "imagen": ""
-  },
-  {
-   "titulo": "Daniel Quintero enfrentará juicio disciplinario por presunta participación política a raíz de una entrevista en TikTok",
-   "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc96ac5a1d4eaa858cc43fca0455d6&url=https%3a%2f%2fwww.lafm.com.co%2fpolitica%2fdaniel-quintero-pliego-cargos-procuraduria-participacion-politica-415947&c=7335610079030374032&mkt=es-us",
-   "fecha": "Mon, 02 Nov 2026 20:05:00 GMT",
-   "fuente": "La FM",
    "imagen": ""
   }
  ],
@@ -1108,10 +1108,10 @@
    "hace": "hace 9 m"
   },
   {
-   "id": "kofAxL6eqQI",
-   "titulo": "Daniel Quintero habló sobre la izquierda, salud y pena de muerte en #SinIntermediarios",
+   "id": "jQJOaHmGtnI",
+   "titulo": "Hablan exfuncionarios de Daniel Quintero que fueron destituidos e inhabilitados por la Procuraduría",
    "canal": "Noticias Caracol",
-   "hace": "hace 9 m"
+   "hace": "hace 1 a"
   },
   {
    "id": "81tbd_z6QRs",
@@ -1126,16 +1126,16 @@
    "hace": "hace 1 a"
   },
   {
-   "id": "jQJOaHmGtnI",
-   "titulo": "Hablan exfuncionarios de Daniel Quintero que fueron destituidos e inhabilitados por la Procuraduría",
-   "canal": "Noticias Caracol",
-   "hace": "hace 1 a"
+   "id": "9055-2P1-Zo",
+   "titulo": "Daniel Quintero, a juicio disciplinario por entrevista en TikTok durante segunda vuelta presidencial",
+   "canal": "Blu Radio",
+   "hace": "hace 2 sem."
   },
   {
-   "id": "8ZkES_HgWs0",
-   "titulo": "¿PERIODISTA DE CARACOL SUPLANTÓ A DANIEL QUINTERO? #90segundosnoticias #abelardodelaespriella",
-   "canal": "90 Segundos Noticias",
-   "hace": "hace 2 m"
+   "id": "ke2VgL2Kd44",
+   "titulo": "Daniel Quintero reconoció su derrota en la consulta: acompañará a Roy Barreras | Caracol Radio",
+   "canal": "Caracol Radio",
+   "hace": "hace 8 m"
   }
  ]
 }
