@@ -22,4 +22,4 @@ jobs:
           git config user.name "Robot Vibras Positivas HM"
           git config user.email "robot@vibraspositivashm.com"
           git add data/noticias.json
-          git diff --staged --quiet || (git commit -m "Noticias $(TZ=America/Bogota date '+%Y-%m-%d %H:%M')" && git push)
+          git diff --staged --quiet || (git commit -m "[skip netlify] Noticias $(TZ=America/Bogota date '+%Y-%m-%d %H:%M')" && git push)
